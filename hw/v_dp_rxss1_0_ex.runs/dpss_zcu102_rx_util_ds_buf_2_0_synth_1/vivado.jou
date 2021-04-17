@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr  7 18:45:09 2021
+# Process ID: 86604
+# Current directory: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_util_ds_buf_2_0_synth_1
+# Command line: vivado.exe -log dpss_zcu102_rx_util_ds_buf_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dpss_zcu102_rx_util_ds_buf_2_0.tcl
+# Log file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_util_ds_buf_2_0_synth_1/dpss_zcu102_rx_util_ds_buf_2_0.vds
+# Journal file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_util_ds_buf_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dpss_zcu102_rx_util_ds_buf_2_0.tcl -notrace

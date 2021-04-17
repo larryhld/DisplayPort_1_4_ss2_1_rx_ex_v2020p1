@@ -1,0 +1,724 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr  7 18:54:51 2021
+# Process ID: 84416
+# Current directory: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1
+# Command line: vivado.exe -log dpss_zcu102_rx_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dpss_zcu102_rx_wrapper.tcl
+# Log file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/dpss_zcu102_rx_wrapper.vds
+# Journal file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dpss_zcu102_rx_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+add_files: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1035.066 ; gain = 0.000
+Command: synth_design -top dpss_zcu102_rx_wrapper -part xczu9eg-ffvb1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19636
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1672.316 ; gain = 81.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_wrapper' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/hdl/dpss_zcu102_rx_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:753]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_axi_iic_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_axi_iic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_axi_iic_0_0' (1#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_axi_iic_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'gpo' of module 'dpss_zcu102_rx_axi_iic_0_0' is unconnected for instance 'axi_iic_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1044]
+WARNING: [Synth 8-7023] instance 'axi_iic_0' of module 'dpss_zcu102_rx_axi_iic_0_0' has 27 connections declared, but only 26 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1044]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_axi_timer_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_axi_timer_0_0' (2#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_axi_timer_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'generateout0' of module 'dpss_zcu102_rx_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1071]
+WARNING: [Synth 8-7071] port 'generateout1' of module 'dpss_zcu102_rx_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1071]
+WARNING: [Synth 8-7071] port 'pwm0' of module 'dpss_zcu102_rx_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1071]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'dpss_zcu102_rx_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1071]
+WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'dpss_zcu102_rx_axi_timer_0_0' has 26 connections declared, but only 22 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1071]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_clk_wiz_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_clk_wiz_0_0' (3#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_clk_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'locked' of module 'dpss_zcu102_rx_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1094]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'dpss_zcu102_rx_clk_wiz_0_0' has 6 connections declared, but only 5 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1094]
+INFO: [Synth 8-6157] synthesizing module 'dp_rx_hier_0_imp_132I943' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:12]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_ds_buf_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_ds_buf_0_0' (4#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'IBUF_DS_ODIV2' of module 'dpss_zcu102_rx_util_ds_buf_0_0' is unconnected for instance 'util_ds_buf_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:525]
+WARNING: [Synth 8-7023] instance 'util_ds_buf_0' of module 'dpss_zcu102_rx_util_ds_buf_0_0' has 4 connections declared, but only 3 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:525]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_ds_buf_1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_ds_buf_1_0' (5#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'IBUF_DS_ODIV2' of module 'dpss_zcu102_rx_util_ds_buf_1_0' is unconnected for instance 'util_ds_buf_1' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:529]
+WARNING: [Synth 8-7023] instance 'util_ds_buf_1' of module 'dpss_zcu102_rx_util_ds_buf_1_0' has 4 connections declared, but only 3 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:529]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_reduced_logic_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_reduced_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_reduced_logic_0_0' (6#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_reduced_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_v_dp_rxss1_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_v_dp_rxss1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_v_dp_rxss1_0_0' (7#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_v_dp_rxss1_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'acr_m_aud' of module 'dpss_zcu102_rx_v_dp_rxss1_0_0' is unconnected for instance 'v_dp_rxss1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:536]
+WARNING: [Synth 8-7071] port 'acr_n_aud' of module 'dpss_zcu102_rx_v_dp_rxss1_0_0' is unconnected for instance 'v_dp_rxss1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:536]
+WARNING: [Synth 8-7071] port 'acr_valid' of module 'dpss_zcu102_rx_v_dp_rxss1_0_0' is unconnected for instance 'v_dp_rxss1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:536]
+WARNING: [Synth 8-7071] port 'edid_iic_scl_o' of module 'dpss_zcu102_rx_v_dp_rxss1_0_0' is unconnected for instance 'v_dp_rxss1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:536]
+WARNING: [Synth 8-7071] port 'edid_iic_sda_o' of module 'dpss_zcu102_rx_v_dp_rxss1_0_0' is unconnected for instance 'v_dp_rxss1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:536]
+WARNING: [Synth 8-7023] instance 'v_dp_rxss1_0' of module 'dpss_zcu102_rx_v_dp_rxss1_0_0' has 80 connections declared, but only 75 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:536]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_vid_edid_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_vid_edid_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_vid_edid_0_0' (8#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_vid_edid_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_vid_phy_controller_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_vid_phy_controller_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_vid_phy_controller_0_0' (9#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_vid_phy_controller_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_video_frame_crc_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_video_frame_crc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_video_frame_crc_0_0' (10#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_video_frame_crc_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconcat_0_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconcat_0_0/synth/dpss_zcu102_rx_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 2 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (11#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconcat_0_0' (12#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconcat_0_0/synth/dpss_zcu102_rx_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconstant_0_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_0_0/synth/dpss_zcu102_rx_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (13#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconstant_0_0' (14#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_0_0/synth/dpss_zcu102_rx_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconstant_1_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_1_0/synth/dpss_zcu102_rx_xlconstant_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' (14#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconstant_1_0' (15#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_1_0/synth/dpss_zcu102_rx_xlconstant_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconstant_2_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_2_0/synth/dpss_zcu102_rx_xlconstant_2_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconstant_2_0' (16#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_2_0/synth/dpss_zcu102_rx_xlconstant_2_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'dp_rx_hier_0_imp_132I943' (17#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:12]
+WARNING: [Synth 8-7071] port 'B_SOURCE_AUX_DE' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'B_SOURCE_RST' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'Vid_Out_AXIS_tdata' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'Vid_Out_AXIS_tlast' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'Vid_Out_AXIS_tuser' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'Vid_Out_AXIS_tvalid' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'dprxss_iic_irq' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'ext_rst' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7071] port 'm_axis_video_stream1_tready' of module 'dp_rx_hier_0_imp_132I943' is unconnected for instance 'dp_rx_hier_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+WARNING: [Synth 8-7023] instance 'dp_rx_hier_0' of module 'dp_rx_hier_0_imp_132I943' has 120 connections declared, but only 111 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1100]
+INFO: [Synth 8-6157] synthesizing module 'i2c_mux_imp_WEFG1G' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:3954]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_ds_buf_2_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_ds_buf_2_0' (18#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_ds_buf_3_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_ds_buf_3_0' (19#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_ds_buf_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_vector_logic_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_vector_logic_0_0' (20#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_vector_logic_1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_vector_logic_1_0' (21#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_vector_logic_2_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_vector_logic_2_0' (22#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_vector_logic_3_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_vector_logic_3_0' (23#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_mux_imp_WEFG1G' (24#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:3954]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_proc_sys_reset_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_proc_sys_reset_0_0' (25#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'dpss_zcu102_rx_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1225]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'dpss_zcu102_rx_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1225]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dpss_zcu102_rx_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1225]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'dpss_zcu102_rx_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1225]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'dpss_zcu102_rx_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1225]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_ps8_0_axi_periph_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1588]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1VD2V0V' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4035]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_ds_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_ds_0' (26#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_pc_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_pc_0' (27#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'dpss_zcu102_rx_auto_pc_0' is unconnected for instance 'auto_pc' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4386]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'dpss_zcu102_rx_auto_pc_0' is unconnected for instance 'auto_pc' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4386]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'dpss_zcu102_rx_auto_pc_0' has 56 connections declared, but only 54 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4386]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1VD2V0V' (28#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4035]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_W5YLRC' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4443]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_ds_1' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_ds_1' (29#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_pc_1' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_pc_1' (30#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'dpss_zcu102_rx_auto_pc_1' is unconnected for instance 'auto_pc' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4794]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'dpss_zcu102_rx_auto_pc_1' is unconnected for instance 'auto_pc' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4794]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'dpss_zcu102_rx_auto_pc_1' has 56 connections declared, but only 54 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4794]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_W5YLRC' (31#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4443]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_C716KG' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4851]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_ds_2' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_ds_2' (32#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_pc_2' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_pc_2' (33#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_C716KG' (34#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:4851]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1BEGC6F' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:5269]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_ds_3' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_ds_3' (35#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_pc_3' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_pc_3' (36#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1BEGC6F' (37#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:5269]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_178BGLS' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:5687]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_ds_4' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_ds_4' (38#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_pc_4' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_pc_4' (39#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_178BGLS' (40#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:5687]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_7GWQGN' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:6105]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_ds_5' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_ds_5' (41#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_ds_5_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_auto_pc_5' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_auto_pc_5' (42#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_auto_pc_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_7GWQGN' (43#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:6105]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_IKTYOV' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:6523]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_IKTYOV' (44#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:6523]
+INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_1IBX43C' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:6823]
+INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_1IBX43C' (45#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:6823]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_DZPKAI' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:7123]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_DZPKAI' (46#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:7123]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1DQTR6L' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:7409]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1DQTR6L' (47#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:7409]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xbar_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xbar_0' (48#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_ps8_0_axi_periph_0' (49#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1588]
+WARNING: [Synth 8-7071] port 'M06_AXI_araddr' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arburst' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arcache' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arlen' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arlock' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arprot' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arqos' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arregion' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arsize' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_aruser' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_arvalid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awaddr' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awburst' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awcache' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awlen' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awlock' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awprot' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awqos' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awregion' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awsize' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awuser' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_awvalid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_bready' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_rready' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_wdata' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_wlast' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_wstrb' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M06_AXI_wvalid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_araddr' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arburst' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arcache' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arlen' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arlock' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arprot' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arqos' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arregion' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arsize' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_aruser' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_arvalid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awaddr' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awburst' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awcache' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awlen' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awlock' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awprot' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awqos' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awregion' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awsize' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awuser' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_awvalid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_bready' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_rready' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_wdata' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_wlast' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_wstrb' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7071] port 'M07_AXI_wvalid' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' is unconnected for instance 'ps8_0_axi_periph' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+WARNING: [Synth 8-7023] instance 'ps8_0_axi_periph' of module 'dpss_zcu102_rx_ps8_0_axi_periph_0' has 292 connections declared, but only 232 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1232]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_rst_ps8_0_99M_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_rst_ps8_0_99M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_rst_ps8_0_99M_0' (50#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_rst_ps8_0_99M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'dpss_zcu102_rx_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1465]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'dpss_zcu102_rx_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1465]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_99M' of module 'dpss_zcu102_rx_rst_ps8_0_99M_0' has 10 connections declared, but only 8 given [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1465]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1474]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_system_ila_1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_system_ila_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_system_ila_1_0' (51#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_system_ila_1_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:1482]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_system_ila_2_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_system_ila_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_system_ila_2_0' (52#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_system_ila_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_util_vector_logic_1_1' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_util_vector_logic_1_1' (53#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_util_vector_logic_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconcat_0_1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconcat_0_1/synth/dpss_zcu102_rx_xlconcat_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 3 - type: integer 
+	Parameter NUM_PORTS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized0' (53#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconcat_0_1' (54#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconcat_0_1/synth/dpss_zcu102_rx_xlconcat_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconstant_0_1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_0_1/synth/dpss_zcu102_rx_xlconstant_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconstant_0_1' (55#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_0_1/synth/dpss_zcu102_rx_xlconstant_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_xlconstant_1_1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_1_1/synth/dpss_zcu102_rx_xlconstant_1_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_xlconstant_1_1' (56#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xlconstant_1_1/synth/dpss_zcu102_rx_xlconstant_1_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_zynq_ultra_ps_e_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_zynq_ultra_ps_e_0_0' (57#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/.Xil/Vivado-84416-DESKTOP-LB2DFM9/realtime/dpss_zcu102_rx_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx' (58#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.v:753]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_wrapper' (59#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/hdl/dpss_zcu102_rx_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1742.312 ; gain = 151.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1760.234 ; gain = 169.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1760.234 ; gain = 169.371
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1760.234 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/axi_iic_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/axi_iic_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/axi_timer_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/axi_timer_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc:6]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc:2]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_1'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc:2]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_1'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_reduced_logic_0_0/dpss_zcu102_rx_util_reduced_logic_0_0/dpss_zcu102_rx_util_reduced_logic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_reduced_logic_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_reduced_logic_0_0/dpss_zcu102_rx_util_reduced_logic_0_0/dpss_zcu102_rx_util_reduced_logic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_reduced_logic_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_in_context.xdc:2]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_edid_0_0/dpss_zcu102_rx_vid_edid_0_0/dpss_zcu102_rx_vid_edid_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_edid_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_edid_0_0/dpss_zcu102_rx_vid_edid_0_0/dpss_zcu102_rx_vid_edid_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_edid_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc:2]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_2'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_2'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_3'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_3'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_0_0/dpss_zcu102_rx_util_vector_logic_0_0/dpss_zcu102_rx_util_vector_logic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_0_0/dpss_zcu102_rx_util_vector_logic_0_0/dpss_zcu102_rx_util_vector_logic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_1_0/dpss_zcu102_rx_util_vector_logic_1_0/dpss_zcu102_rx_util_vector_logic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_1'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_1_0/dpss_zcu102_rx_util_vector_logic_1_0/dpss_zcu102_rx_util_vector_logic_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_1'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_2_0/dpss_zcu102_rx_util_vector_logic_2_0/dpss_zcu102_rx_util_vector_logic_3_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_2'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_2_0/dpss_zcu102_rx_util_vector_logic_2_0/dpss_zcu102_rx_util_vector_logic_3_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_2'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_3_0/dpss_zcu102_rx_util_vector_logic_3_0/dpss_zcu102_rx_util_vector_logic_3_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_3'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_3_0/dpss_zcu102_rx_util_vector_logic_3_0/dpss_zcu102_rx_util_vector_logic_3_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/i2c_mux/util_vector_logic_3'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_proc_sys_reset_0_0/dpss_zcu102_rx_proc_sys_reset_0_0/dpss_zcu102_rx_proc_sys_reset_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/proc_sys_reset_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_proc_sys_reset_0_0/dpss_zcu102_rx_proc_sys_reset_0_0/dpss_zcu102_rx_proc_sys_reset_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/proc_sys_reset_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xbar_0/dpss_zcu102_rx_xbar_0/dpss_zcu102_rx_xbar_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xbar_0/dpss_zcu102_rx_xbar_0/dpss_zcu102_rx_xbar_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ps8_0_99M_0/dpss_zcu102_rx_rst_ps8_0_99M_0/dpss_zcu102_rx_rst_ps8_0_99M_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/rst_ps8_0_99M'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ps8_0_99M_0/dpss_zcu102_rx_rst_ps8_0_99M_0/dpss_zcu102_rx_rst_ps8_0_99M_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/rst_ps8_0_99M'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_1_0/dpss_zcu102_rx_system_ila_1_0/dpss_zcu102_rx_system_ila_1_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/system_ila_1'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_1_0/dpss_zcu102_rx_system_ila_1_0/dpss_zcu102_rx_system_ila_1_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/system_ila_1'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_2_0/dpss_zcu102_rx_system_ila_2_0/dpss_zcu102_rx_system_ila_2_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/system_ila_2'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_2_0/dpss_zcu102_rx_system_ila_2_0/dpss_zcu102_rx_system_ila_2_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/system_ila_2'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_1_1/dpss_zcu102_rx_util_vector_logic_1_1/bd_6311_notof_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/util_vector_logic_1'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_1_1/dpss_zcu102_rx_util_vector_logic_1_1/bd_6311_notof_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/util_vector_logic_1'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/zynq_ultra_ps_e_0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0_in_context.xdc:2]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/zynq_ultra_ps_e_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_0/dpss_zcu102_rx_auto_pc_0/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_0/dpss_zcu102_rx_auto_pc_0/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_pc'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_1/dpss_zcu102_rx_auto_ds_1/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_ds'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_1/dpss_zcu102_rx_auto_ds_1/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_ds'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_1/dpss_zcu102_rx_auto_pc_1/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_pc'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_1/dpss_zcu102_rx_auto_pc_1/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_pc'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_2/dpss_zcu102_rx_auto_ds_2/dpss_zcu102_rx_auto_ds_2_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_ds'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_2/dpss_zcu102_rx_auto_ds_2/dpss_zcu102_rx_auto_ds_2_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_ds'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_2/dpss_zcu102_rx_auto_pc_2/dpss_zcu102_rx_auto_pc_2_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_pc'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_2/dpss_zcu102_rx_auto_pc_2/dpss_zcu102_rx_auto_pc_2_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_pc'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_3/dpss_zcu102_rx_auto_ds_3/dpss_zcu102_rx_auto_ds_3_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_ds'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_3/dpss_zcu102_rx_auto_ds_3/dpss_zcu102_rx_auto_ds_3_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_ds'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_3/dpss_zcu102_rx_auto_pc_3/dpss_zcu102_rx_auto_pc_3_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_pc'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_3/dpss_zcu102_rx_auto_pc_3/dpss_zcu102_rx_auto_pc_3_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_pc'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_4/dpss_zcu102_rx_auto_ds_4/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_4/dpss_zcu102_rx_auto_ds_4/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_4/dpss_zcu102_rx_auto_pc_4/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_pc'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_4/dpss_zcu102_rx_auto_pc_4/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_pc'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_5/dpss_zcu102_rx_auto_ds_5/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_5/dpss_zcu102_rx_auto_ds_5/dpss_zcu102_rx_auto_ds_1_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_5/dpss_zcu102_rx_auto_pc_5/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_pc'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_5/dpss_zcu102_rx_auto_pc_5/dpss_zcu102_rx_auto_pc_0_in_context.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_pc'
+Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/imports/top_zcu102.xdc]
+Finished Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/imports/top_zcu102.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/imports/top_zcu102.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dpss_zcu102_rx_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/dpss_zcu102_rx_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1857.262 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1857.262 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '40.690' specified during out-of-context synthesis of instance 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0' at clock pin 'm_aud_axis_aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '7.407' specified during out-of-context synthesis of instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0' at clock pin 'vid_phy_rx_axi4s_aclk' is different from the actual clock period '2.469', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '5.000' specified during out-of-context synthesis of instance 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0' at clock pin 'vid_in_axis_aclk' is different from the actual clock period '3.333', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1862.242 ; gain = 271.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu9eg-ffvb1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1862.242 ; gain = 271.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for user_si570_sysclk_clk_n. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for user_si570_sysclk_clk_n. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for user_si570_sysclk_clk_p. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for user_si570_sysclk_clk_p. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for IBUF_DS_N[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for IBUF_DS_N[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for IBUF_DS_P[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for IBUF_DS_P[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for IBUF_DS_N1[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for IBUF_DS_N1[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for IBUF_DS_P1[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for IBUF_DS_P1[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for rx_hpd[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for rx_hpd[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxn_in[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxn_in[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxn_in[1]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxn_in[1]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxn_in[2]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxn_in[2]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxn_in[3]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxn_in[3]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxp_in[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxp_in[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxp_in[1]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxp_in[1]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxp_in[2]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxp_in[2]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for phy_rxp_in[3]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 17).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for phy_rxp_in[3]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0/dpss_zcu102_rx_vid_phy_controller_0_0_in_context.xdc, line 18).
+Applied set_property IO_BUFFER_TYPE = NONE for i2c_sda[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for i2c_sda[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for i2c_scl[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for i2c_scl[0]. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_3_0/dpss_zcu102_rx_util_ds_buf_2_0_in_context.xdc, line 2).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/axi_iic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/axi_timer_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/util_reduced_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/vid_edid_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/dp_rx_hier_0/xlconstant_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/i2c_mux/util_ds_buf_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/i2c_mux/util_ds_buf_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/i2c_mux/util_vector_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/i2c_mux/util_vector_logic_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/i2c_mux/util_vector_logic_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/i2c_mux/util_vector_logic_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/proc_sys_reset_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/rst_ps8_0_99M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/system_ila_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/system_ila_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/util_vector_logic_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1862.242 ; gain = 271.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1862.242 ; gain = 271.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2520 (col length:168)
+BRAMs: 1824 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1862.242 ; gain = 271.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2411.473 ; gain = 820.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2412.473 ; gain = 821.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2432.996 ; gain = 842.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------------+----------+
+|      |BlackBox name                         |Instances |
++------+--------------------------------------+----------+
+|1     |dpss_zcu102_rx_xbar_0                 |         1|
+|2     |dpss_zcu102_rx_auto_ds_0              |         1|
+|3     |dpss_zcu102_rx_auto_pc_0              |         1|
+|4     |dpss_zcu102_rx_auto_ds_1              |         1|
+|5     |dpss_zcu102_rx_auto_pc_1              |         1|
+|6     |dpss_zcu102_rx_auto_ds_2              |         1|
+|7     |dpss_zcu102_rx_auto_pc_2              |         1|
+|8     |dpss_zcu102_rx_auto_ds_3              |         1|
+|9     |dpss_zcu102_rx_auto_pc_3              |         1|
+|10    |dpss_zcu102_rx_auto_ds_4              |         1|
+|11    |dpss_zcu102_rx_auto_pc_4              |         1|
+|12    |dpss_zcu102_rx_auto_ds_5              |         1|
+|13    |dpss_zcu102_rx_auto_pc_5              |         1|
+|14    |dpss_zcu102_rx_axi_iic_0_0            |         1|
+|15    |dpss_zcu102_rx_axi_timer_0_0          |         1|
+|16    |dpss_zcu102_rx_clk_wiz_0_0            |         1|
+|17    |dpss_zcu102_rx_proc_sys_reset_0_0     |         1|
+|18    |dpss_zcu102_rx_rst_ps8_0_99M_0        |         1|
+|19    |dpss_zcu102_rx_system_ila_1_0         |         1|
+|20    |dpss_zcu102_rx_system_ila_2_0         |         1|
+|21    |dpss_zcu102_rx_util_vector_logic_1_1  |         1|
+|22    |dpss_zcu102_rx_zynq_ultra_ps_e_0_0    |         1|
+|23    |dpss_zcu102_rx_util_ds_buf_0_0        |         1|
+|24    |dpss_zcu102_rx_util_ds_buf_1_0        |         1|
+|25    |dpss_zcu102_rx_util_reduced_logic_0_0 |         1|
+|26    |dpss_zcu102_rx_v_dp_rxss1_0_0         |         1|
+|27    |dpss_zcu102_rx_vid_edid_0_0           |         1|
+|28    |dpss_zcu102_rx_vid_phy_controller_0_0 |         1|
+|29    |dpss_zcu102_rx_video_frame_crc_0_0    |         1|
+|30    |dpss_zcu102_rx_util_ds_buf_2_0        |         1|
+|31    |dpss_zcu102_rx_util_ds_buf_3_0        |         1|
+|32    |dpss_zcu102_rx_util_vector_logic_0_0  |         1|
+|33    |dpss_zcu102_rx_util_vector_logic_1_0  |         1|
+|34    |dpss_zcu102_rx_util_vector_logic_2_0  |         1|
+|35    |dpss_zcu102_rx_util_vector_logic_3_0  |         1|
++------+--------------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------------+------+
+|      |Cell                                |Count |
++------+------------------------------------+------+
+|1     |dpss_zcu102_rx_auto_ds              |     6|
+|7     |dpss_zcu102_rx_auto_pc              |     6|
+|13    |dpss_zcu102_rx_axi_iic_0            |     1|
+|14    |dpss_zcu102_rx_axi_timer_0          |     1|
+|15    |dpss_zcu102_rx_clk_wiz_0            |     1|
+|16    |dpss_zcu102_rx_proc_sys_reset_0     |     1|
+|17    |dpss_zcu102_rx_rst_ps8_0_99M        |     1|
+|18    |dpss_zcu102_rx_system_ila_1         |     1|
+|19    |dpss_zcu102_rx_system_ila_2         |     1|
+|20    |dpss_zcu102_rx_util_ds_buf_0        |     1|
+|21    |dpss_zcu102_rx_util_ds_buf_1        |     1|
+|22    |dpss_zcu102_rx_util_ds_buf_2        |     1|
+|23    |dpss_zcu102_rx_util_ds_buf_3        |     1|
+|24    |dpss_zcu102_rx_util_reduced_logic_0 |     1|
+|25    |dpss_zcu102_rx_util_vector_logic_0  |     1|
+|26    |dpss_zcu102_rx_util_vector_logic_1  |     2|
+|28    |dpss_zcu102_rx_util_vector_logic_2  |     1|
+|29    |dpss_zcu102_rx_util_vector_logic_3  |     1|
+|30    |dpss_zcu102_rx_v_dp_rxss1_0         |     1|
+|31    |dpss_zcu102_rx_vid_edid_0           |     1|
+|32    |dpss_zcu102_rx_vid_phy_controller_0 |     1|
+|33    |dpss_zcu102_rx_video_frame_crc_0    |     1|
+|34    |dpss_zcu102_rx_xbar                 |     1|
+|35    |dpss_zcu102_rx_zynq_ultra_ps_e_0    |     1|
+|36    |IBUF                                |     2|
+|37    |OBUF                                |     5|
++------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 2437.660 ; gain = 744.789
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2437.660 ; gain = 846.797
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 2450.742 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2487.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+141 Infos, 117 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 2487.996 ; gain = 1452.930
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/synth_1/dpss_zcu102_rx_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dpss_zcu102_rx_wrapper_utilization_synth.rpt -pb dpss_zcu102_rx_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  7 18:55:56 2021...

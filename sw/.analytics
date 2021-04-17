@@ -1,0 +1,7 @@
+timestamp=[2021-04-07 19:21:34], mode=WORKBENCH_START, duration=0:00:04.471, duration_ms=4471, data={}
+timestamp=[2021-04-07 19:21:35], mode=WORKBENCH_UI_INIT, duration=0:00:00.350, duration_ms=350, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-04-07 19:21:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.426, duration_ms=2426, data={}
+timestamp=[2021-04-07 19:24:58], mode=PLATFORM_CREATION, duration=0:00:24.978, duration_ms=24978, data={platform_source=dsa, os=standalone, processor=psu_cortexa53, platform=null}
+timestamp=[2021-04-07 19:25:53], mode=APP_CREATION, duration=0:00:16.571, duration_ms=16571, data={name=xdprxss_dp14_rx_1, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=zcu102_rxo, application_type=application}
+timestamp=[2021-04-07 19:30:45], mode=PLATFORM_GENERATION, duration=0:04:25.798, duration_ms=265798, data={name=zcu102_rxo}
+timestamp=[2021-04-07 19:30:48], mode=BUILD, duration=0:00:02.992, duration_ms=2992, data={name=xdprxss_dp14_rx_1, configuration=Debug, clean_build=false}

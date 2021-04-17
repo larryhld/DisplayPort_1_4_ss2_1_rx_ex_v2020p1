@@ -1,0 +1,4 @@
+set_property SRC_FILE_INFO {cfile:c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0_clocks.xdc rfile:../../../v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0_clocks.xdc id:1 order:LATE scoped_inst:inst} [current_design]
+current_instance inst
+set_property src_info {type:SCOPED_XDC file:1 line:49 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_clocks -of_objects [get_ports vid_in_axis_aclk]] -to [all_registers -clock [get_clocks -of_objects [get_ports s_axi_aclk]]] -datapath_only [expr 2 * max([join [get_property PERIOD [get_clocks -of_objects [get_ports s_axi_aclk]]] ,], [join [get_property PERIOD [get_clocks -of_objects [get_ports vid_in_axis_aclk]]] ,])]

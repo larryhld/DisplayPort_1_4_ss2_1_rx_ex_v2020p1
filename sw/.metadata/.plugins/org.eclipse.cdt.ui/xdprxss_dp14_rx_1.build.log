@@ -1,0 +1,46 @@
+19:30:45 **** Build of configuration Debug for project xdprxss_dp14_rx_1 ****
+make all 
+'Building file: ../src/idt_8t49n24x.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/idt_8t49n24x.o" -IC:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/standalone_domain/bspinclude/include -MMD -MP -MF"src/idt_8t49n24x.d" -MT"src/idt_8t49n24x.o" -o "src/idt_8t49n24x.o" "../src/idt_8t49n24x.c"
+'Finished building: ../src/idt_8t49n24x.c'
+' '
+'Building file: ../src/ti_lmk03318.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ti_lmk03318.o" -IC:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/standalone_domain/bspinclude/include -MMD -MP -MF"src/ti_lmk03318.d" -MT"src/ti_lmk03318.o" -o "src/ti_lmk03318.o" "../src/ti_lmk03318.c"
+'Finished building: ../src/ti_lmk03318.c'
+' '
+'Building file: ../src/xdprxss_dp14_rx.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdprxss_dp14_rx.o" -IC:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/standalone_domain/bspinclude/include -MMD -MP -MF"src/xdprxss_dp14_rx.d" -MT"src/xdprxss_dp14_rx.o" -o "src/xdprxss_dp14_rx.o" "../src/xdprxss_dp14_rx.c"
+../src/xdprxss_dp14_rx.c: In function 'DpRxSs_Main':
+../src/xdprxss_dp14_rx.c:552:13: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  552 |   Command = atoi(&CommandKey);
+      |             ^~~~
+../src/xdprxss_dp14_rx.c:486:15: warning: variable 'Command' set but not used [-Wunused-but-set-variable]
+  486 |  unsigned int Command;
+      |               ^~~~~~~
+../src/xdprxss_dp14_rx.c:485:7: warning: unused variable 'CmdKey' [-Wunused-variable]
+  485 |  char CmdKey[2];
+      |       ^~~~~~
+'Finished building: ../src/xdprxss_dp14_rx.c'
+' '
+'Building file: ../src/xvidframe_crc.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xvidframe_crc.o" -IC:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/standalone_domain/bspinclude/include -MMD -MP -MF"src/xvidframe_crc.d" -MT"src/xvidframe_crc.o" -o "src/xvidframe_crc.o" "../src/xvidframe_crc.c"
+'Finished building: ../src/xvidframe_crc.c'
+' '
+'Building target: xdprxss_dp14_rx_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/standalone_domain/bsplib/lib -o "xdprxss_dp14_rx_1.elf"  ./src/idt_8t49n24x.o ./src/ti_lmk03318.o ./src/xdprxss_dp14_rx.o ./src/xvidframe_crc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: xdprxss_dp14_rx_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size xdprxss_dp14_rx_1.elf  |tee "xdprxss_dp14_rx_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 129300	   6488	  27236	 163024	  27cd0	xdprxss_dp14_rx_1.elf
+'Finished building: xdprxss_dp14_rx_1.elf.size'
+' '
+
+19:30:48 Build Finished (took 2s.975ms)
+

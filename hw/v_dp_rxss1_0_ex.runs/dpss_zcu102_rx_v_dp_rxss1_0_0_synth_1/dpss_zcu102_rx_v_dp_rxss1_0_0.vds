@@ -1,0 +1,273 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr  7 18:53:47 2021
+# Process ID: 63928
+# Current directory: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1
+# Command line: vivado.exe -log dpss_zcu102_rx_v_dp_rxss1_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dpss_zcu102_rx_v_dp_rxss1_0_0.tcl
+# Log file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/dpss_zcu102_rx_v_dp_rxss1_0_0.vds
+# Journal file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dpss_zcu102_rx_v_dp_rxss1_0_0.tcl -notrace
+Command: synth_design -top dpss_zcu102_rx_v_dp_rxss1_0_0 -part xczu9eg-ffvb1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33092
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1588.168 ; gain = 83.004
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dpss_zcu102_rx_v_dp_rxss1_0_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/synth/dpss_zcu102_rx_v_dp_rxss1_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:10]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311_dp_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_dp_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311_dp_0' (1#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_dp_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'rx_vid_oddeven' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'lnk_m_vid' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'lnk_n_vid' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'lnk_m_aud' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'lnk_n_aud' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'link_bw_high_out' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'link_bw_hbr2_out' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'bw_changed_out' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7071] port 'rx_vid_msa_vres' of module 'bd_6311_dp_0' is unconnected for instance 'dp' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+WARNING: [Synth 8-7023] instance 'dp' of module 'bd_6311_dp_0' has 87 connections declared, but only 78 given [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:381]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311_iic_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_iic_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311_iic_0' (2#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_iic_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311_notof_0_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_notof_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311_notof_0_0' (3#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_notof_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311_vb1_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_vb1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311_vb1_0' (4#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_vb1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'wr_error' of module 'bd_6311_vb1_0' is unconnected for instance 'vb1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:491]
+WARNING: [Synth 8-7071] port 'rd_error' of module 'bd_6311_vb1_0' is unconnected for instance 'vb1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:491]
+WARNING: [Synth 8-7071] port 'hres_cntr_out' of module 'bd_6311_vb1_0' is unconnected for instance 'vb1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:491]
+WARNING: [Synth 8-7071] port 'vres_cntr_out' of module 'bd_6311_vb1_0' is unconnected for instance 'vb1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:491]
+WARNING: [Synth 8-7071] port 'debug_port' of module 'bd_6311_vb1_0' is unconnected for instance 'vb1' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:491]
+WARNING: [Synth 8-7023] instance 'vb1' of module 'bd_6311_vb1_0' has 24 connections declared, but only 19 given [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:491]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311_xbar_0' [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311_xbar_0' (5#1) [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/.Xil/Vivado-63928-DESKTOP-LB2DFM9/realtime/bd_6311_xbar_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'bd_6311_xbar_0' is unconnected for instance 'xbar' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:511]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'bd_6311_xbar_0' is unconnected for instance 'xbar' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:511]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'bd_6311_xbar_0' has 59 connections declared, but only 57 given [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:511]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:569]
+INFO: [Synth 8-6157] synthesizing module 'bd_6311_xlconstant_0_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_1/synth/bd_6311_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (6#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311_xlconstant_0_0' (7#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_1/synth/bd_6311_xlconstant_0_0.v:57]
+WARNING: [Synth 8-7071] port 'dout' of module 'bd_6311_xlconstant_0_0' is unconnected for instance 'xlconstant_0' [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:569]
+WARNING: [Synth 8-7023] instance 'xlconstant_0' of module 'bd_6311_xlconstant_0_0' has 1 connections declared, but only 0 given [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:569]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6311' (8#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/synth/bd_6311.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'dpss_zcu102_rx_v_dp_rxss1_0_0' (9#1) [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/synth/dpss_zcu102_rx_v_dp_rxss1_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1642.309 ; gain = 137.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.211 ; gain = 155.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.211 ; gain = 155.047
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1660.211 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0/bd_6311_dp_0_in_context.xdc] for cell 'inst/dp'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0/bd_6311_dp_0_in_context.xdc] for cell 'inst/dp'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_2/bd_6311_iic_0/bd_6311_iic_0_in_context.xdc] for cell 'inst/iic'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_2/bd_6311_iic_0/bd_6311_iic_0_in_context.xdc] for cell 'inst/iic'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_3/bd_6311_xbar_0/bd_6311_xbar_0_in_context.xdc] for cell 'inst/xbar'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_3/bd_6311_xbar_0/bd_6311_xbar_0_in_context.xdc] for cell 'inst/xbar'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_4/bd_6311_vb1_0/bd_6311_vb1_0_in_context.xdc] for cell 'inst/vb1'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_4/bd_6311_vb1_0/bd_6311_vb1_0_in_context.xdc] for cell 'inst/vb1'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_5/bd_6311_notof_0_0/bd_6311_notof_0_0_in_context.xdc] for cell 'inst/notof_0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_5/bd_6311_notof_0_0/bd_6311_notof_0_0_in_context.xdc] for cell 'inst/notof_0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_ooc.xdc] for cell 'inst'
+WARNING: [Vivado 12-2489] -period contains time 40.690104 which will be rounded to 40.690 to ensure it is an integer multiple of 1 picosecond [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_ooc.xdc:55]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/ip_xdc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/ip_xdc.xdc] for cell 'inst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1717.719 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 1717.719 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1717.719 ; gain = 212.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu9eg-ffvb1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1717.719 ; gain = 212.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for rx_hpd. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0/bd_6311_dp_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for rx_hpd. (constraint file  c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0/bd_6311_dp_0_in_context.xdc, line 2).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/dp. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/iic. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/vb1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/notof_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1717.719 ; gain = 212.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1717.719 ; gain = 212.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2520 (col length:168)
+BRAMs: 1824 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1717.719 ; gain = 212.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2318.871 ; gain = 813.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2318.945 ; gain = 813.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2338.570 ; gain = 833.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |bd_6311_dp_0      |         1|
+|2     |bd_6311_iic_0     |         1|
+|3     |bd_6311_notof_0_0 |         1|
+|4     |bd_6311_vb1_0     |         1|
+|5     |bd_6311_xbar_0    |         1|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |bd_6311_dp      |     1|
+|2     |bd_6311_iic     |     1|
+|3     |bd_6311_notof_0 |     1|
+|4     |bd_6311_vb1     |     1|
+|5     |bd_6311_xbar    |     1|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 2345.305 ; gain = 782.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2345.305 ; gain = 840.141
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2345.305 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2387.164 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 2392.145 ; gain = 1357.109
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/dpss_zcu102_rx_v_dp_rxss1_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dpss_zcu102_rx_v_dp_rxss1_0_0, cache-ID = b7310085146725fa
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/dpss_zcu102_rx_v_dp_rxss1_0_0_synth_1/dpss_zcu102_rx_v_dp_rxss1_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dpss_zcu102_rx_v_dp_rxss1_0_0_utilization_synth.rpt -pb dpss_zcu102_rx_v_dp_rxss1_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  7 18:54:48 2021...
