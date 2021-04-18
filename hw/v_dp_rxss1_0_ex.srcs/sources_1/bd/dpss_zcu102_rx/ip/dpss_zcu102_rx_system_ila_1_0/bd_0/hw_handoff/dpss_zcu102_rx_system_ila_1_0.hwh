@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr  7 18:42:58 2021" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 18 14:50:24 2021" VIVADOVERSION="2020.1">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:zcu102:part0:3.3" DEVICE="xczu9eg" NAME="bd_b784" PACKAGE="ffvb1156" SPEEDGRADE="-2"/>
 
@@ -15,14 +15,14 @@
         <CONNECTION INSTANCE="g_inst" PORT="aresetn"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="7" NAME="SLOT_0_AXIS_tid" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tid"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="I" LEFT="31" NAME="SLOT_0_AXIS_tdata" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tdata">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tdata"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="7" NAME="SLOT_0_AXIS_tid" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tid"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" NAME="SLOT_0_AXIS_tlast" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tlast">
@@ -30,14 +30,14 @@
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tlast"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="SLOT_0_AXIS_tvalid" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tvalid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tvalid"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="I" NAME="SLOT_0_AXIS_tready" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tready">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="SLOT_0_AXIS_tvalid" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tvalid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tvalid"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -58,11 +58,11 @@
       <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
       <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
       <PORTMAPS>
-        <PORTMAP LOGICAL="TID" PHYSICAL="SLOT_0_AXIS_tid"/>
         <PORTMAP LOGICAL="TDATA" PHYSICAL="SLOT_0_AXIS_tdata"/>
+        <PORTMAP LOGICAL="TID" PHYSICAL="SLOT_0_AXIS_tid"/>
         <PORTMAP LOGICAL="TLAST" PHYSICAL="SLOT_0_AXIS_tlast"/>
-        <PORTMAP LOGICAL="TVALID" PHYSICAL="SLOT_0_AXIS_tvalid"/>
         <PORTMAP LOGICAL="TREADY" PHYSICAL="SLOT_0_AXIS_tready"/>
+        <PORTMAP LOGICAL="TVALID" PHYSICAL="SLOT_0_AXIS_tvalid"/>
       </PORTMAPS>
     </BUSINTERFACE>
   </EXTERNALINTERFACES>

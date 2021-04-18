@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr  7 18:42:59 2021" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 18 14:50:27 2021" VIVADOVERSION="2020.1">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:zcu102:part0:3.3" DEVICE="xczu9eg" NAME="bd_b774" PACKAGE="ffvb1156" SPEEDGRADE="-2"/>
 
@@ -25,6 +25,11 @@
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tlast"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="I" NAME="SLOT_0_AXIS_tready" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tready"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="I" LEFT="0" NAME="SLOT_0_AXIS_tuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tuser">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tuser"/>
@@ -33,11 +38,6 @@
     <PORT DIR="I" NAME="SLOT_0_AXIS_tvalid" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tvalid">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tvalid"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="SLOT_0_AXIS_tready" SIGIS="undef" SIGNAME="g_inst_slot_0_axis_tready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="g_inst" PORT="slot_0_axis_tready"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -53,16 +53,16 @@
       <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
       <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
       <PARAMETER NAME="FREQ_HZ" VALUE="300000000"/>
-      <PARAMETER NAME="PHASE" VALUE="0.0"/>
-      <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_clk_wiz_0_0_clk_out1"/>
+      <PARAMETER NAME="PHASE" VALUE="0.00"/>
+      <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk"/>
       <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
       <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
       <PORTMAPS>
         <PORTMAP LOGICAL="TDATA" PHYSICAL="SLOT_0_AXIS_tdata"/>
         <PORTMAP LOGICAL="TLAST" PHYSICAL="SLOT_0_AXIS_tlast"/>
+        <PORTMAP LOGICAL="TREADY" PHYSICAL="SLOT_0_AXIS_tready"/>
         <PORTMAP LOGICAL="TUSER" PHYSICAL="SLOT_0_AXIS_tuser"/>
         <PORTMAP LOGICAL="TVALID" PHYSICAL="SLOT_0_AXIS_tvalid"/>
-        <PORTMAP LOGICAL="TREADY" PHYSICAL="SLOT_0_AXIS_tready"/>
       </PORTMAPS>
     </BUSINTERFACE>
   </EXTERNALINTERFACES>
@@ -1490,8 +1490,8 @@
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="300000000"/>
-          <PARAMETER NAME="PHASE" VALUE="0.0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_clk_wiz_0_0_clk_out1"/>
+          <PARAMETER NAME="PHASE" VALUE="0.00"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
           <PORTMAPS>
@@ -1512,8 +1512,8 @@
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="300000000"/>
-          <PARAMETER NAME="PHASE" VALUE="0.0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_clk_wiz_0_0_clk_out1"/>
+          <PARAMETER NAME="PHASE" VALUE="0.00"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
           <PORTMAPS>

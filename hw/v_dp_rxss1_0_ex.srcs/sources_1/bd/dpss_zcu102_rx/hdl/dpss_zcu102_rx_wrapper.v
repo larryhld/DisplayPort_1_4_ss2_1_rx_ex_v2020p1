@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-//Date        : Wed Apr  7 18:42:48 2021
+//Date        : Sun Apr 18 14:50:13 2021
 //Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
 //Command     : generate_target dpss_zcu102_rx_wrapper.bd
 //Design      : dpss_zcu102_rx_wrapper
@@ -19,6 +19,20 @@ module dpss_zcu102_rx_wrapper
     aux_rx_data_en_out_n_0,
     aux_rx_data_in_0,
     aux_rx_data_out_0,
+    ddr4_sdram_act_n,
+    ddr4_sdram_adr,
+    ddr4_sdram_ba,
+    ddr4_sdram_bg,
+    ddr4_sdram_ck_c,
+    ddr4_sdram_ck_t,
+    ddr4_sdram_cke,
+    ddr4_sdram_cs_n,
+    ddr4_sdram_dm_n,
+    ddr4_sdram_dq,
+    ddr4_sdram_dqs_c,
+    ddr4_sdram_dqs_t,
+    ddr4_sdram_odt,
+    ddr4_sdram_reset_n,
     i2c_scl,
     i2c_sda,
     phy_rxn_in,
@@ -37,6 +51,20 @@ module dpss_zcu102_rx_wrapper
   output [0:0]aux_rx_data_en_out_n_0;
   input aux_rx_data_in_0;
   output aux_rx_data_out_0;
+  output ddr4_sdram_act_n;
+  output [16:0]ddr4_sdram_adr;
+  output [1:0]ddr4_sdram_ba;
+  output ddr4_sdram_bg;
+  output ddr4_sdram_ck_c;
+  output ddr4_sdram_ck_t;
+  output ddr4_sdram_cke;
+  output ddr4_sdram_cs_n;
+  inout [1:0]ddr4_sdram_dm_n;
+  inout [15:0]ddr4_sdram_dq;
+  inout [1:0]ddr4_sdram_dqs_c;
+  inout [1:0]ddr4_sdram_dqs_t;
+  output ddr4_sdram_odt;
+  output ddr4_sdram_reset_n;
   inout [0:0]i2c_scl;
   inout [0:0]i2c_sda;
   input [3:0]phy_rxn_in;
@@ -56,6 +84,20 @@ module dpss_zcu102_rx_wrapper
   wire [0:0]aux_rx_data_en_out_n_0;
   wire aux_rx_data_in_0;
   wire aux_rx_data_out_0;
+  wire ddr4_sdram_act_n;
+  wire [16:0]ddr4_sdram_adr;
+  wire [1:0]ddr4_sdram_ba;
+  wire ddr4_sdram_bg;
+  wire ddr4_sdram_ck_c;
+  wire ddr4_sdram_ck_t;
+  wire ddr4_sdram_cke;
+  wire ddr4_sdram_cs_n;
+  wire [1:0]ddr4_sdram_dm_n;
+  wire [15:0]ddr4_sdram_dq;
+  wire [1:0]ddr4_sdram_dqs_c;
+  wire [1:0]ddr4_sdram_dqs_t;
+  wire ddr4_sdram_odt;
+  wire ddr4_sdram_reset_n;
   wire [0:0]i2c_scl;
   wire [0:0]i2c_sda;
   wire [3:0]phy_rxn_in;
@@ -76,6 +118,20 @@ module dpss_zcu102_rx_wrapper
         .aux_rx_data_en_out_n_0(aux_rx_data_en_out_n_0),
         .aux_rx_data_in_0(aux_rx_data_in_0),
         .aux_rx_data_out_0(aux_rx_data_out_0),
+        .ddr4_sdram_act_n(ddr4_sdram_act_n),
+        .ddr4_sdram_adr(ddr4_sdram_adr),
+        .ddr4_sdram_ba(ddr4_sdram_ba),
+        .ddr4_sdram_bg(ddr4_sdram_bg),
+        .ddr4_sdram_ck_c(ddr4_sdram_ck_c),
+        .ddr4_sdram_ck_t(ddr4_sdram_ck_t),
+        .ddr4_sdram_cke(ddr4_sdram_cke),
+        .ddr4_sdram_cs_n(ddr4_sdram_cs_n),
+        .ddr4_sdram_dm_n(ddr4_sdram_dm_n),
+        .ddr4_sdram_dq(ddr4_sdram_dq),
+        .ddr4_sdram_dqs_c(ddr4_sdram_dqs_c),
+        .ddr4_sdram_dqs_t(ddr4_sdram_dqs_t),
+        .ddr4_sdram_odt(ddr4_sdram_odt),
+        .ddr4_sdram_reset_n(ddr4_sdram_reset_n),
         .i2c_scl(i2c_scl),
         .i2c_sda(i2c_sda),
         .phy_rxn_in(phy_rxn_in),

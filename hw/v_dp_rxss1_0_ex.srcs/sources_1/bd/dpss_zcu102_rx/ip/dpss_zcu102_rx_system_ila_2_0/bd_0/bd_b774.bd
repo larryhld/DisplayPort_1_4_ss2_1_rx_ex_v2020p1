@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xC70487D3859C2E43",
+      "boundary_crc": "0xC70487D3F64FF409",
       "design_src": "SBD",
       "device": "xczu9eg-ffvb1156-2-e",
       "name": "bd_b774",
@@ -57,12 +57,12 @@
             "value_src": "default"
           },
           "PHASE": {
-            "value": "0.0",
+            "value": "0.00",
             "value_src": "default"
           },
           "CLK_DOMAIN": {
-            "value": "dpss_zcu102_rx_clk_wiz_0_0_clk_out1",
-            "value_src": "default"
+            "value": "dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk",
+            "value_src": "default_prop"
           },
           "LAYERED_METADATA": {
             "value": "undef",
@@ -87,7 +87,7 @@
             "value": "resetn"
           },
           "CLK_DOMAIN": {
-            "value": "dpss_zcu102_rx_clk_wiz_0_0_clk_out1",
+            "value": "dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk",
             "value_src": "default_prop"
           },
           "FREQ_HZ": {
@@ -103,7 +103,7 @@
             "value_src": "default"
           },
           "PHASE": {
-            "value": "0.0",
+            "value": "0.00",
             "value_src": "default_prop"
           }
         }

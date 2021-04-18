@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Wed Apr  7 18:46:21 2021
+-- Date        : Wed Apr  7 18:46:17 2021
 -- Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_3/bd_6311_xbar_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top bd_6311_xbar_0 -prefix
+--               bd_6311_xbar_0_ bd_6311_xbar_0_stub.vhdl
 -- Design      : bd_6311_xbar_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu9eg-ffvb1156-2-e

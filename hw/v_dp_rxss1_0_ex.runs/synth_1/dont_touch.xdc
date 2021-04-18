@@ -12,9 +12,6 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_
 # IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_axi_timer_0_0 || ORIG_REF_NAME==dpss_zcu102_rx_axi_timer_0_0} -quiet] -quiet
 
-# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_clk_wiz_0_0 || ORIG_REF_NAME==dpss_zcu102_rx_clk_wiz_0_0} -quiet] -quiet
-
 # IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_util_ds_buf_0_0 || ORIG_REF_NAME==dpss_zcu102_rx_util_ds_buf_0_0} -quiet] -quiet
 
@@ -99,6 +96,21 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_
 # IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_zynq_ultra_ps_e_0_0 || ORIG_REF_NAME==dpss_zcu102_rx_zynq_ultra_ps_e_0_0} -quiet] -quiet
 
+# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/dpss_zcu102_rx_ddr4_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_ddr4_0_0 || ORIG_REF_NAME==dpss_zcu102_rx_ddr4_0_0} -quiet] -quiet
+
+# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ddr4_0_300M_0/dpss_zcu102_rx_rst_ddr4_0_300M_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_rst_ddr4_0_300M_0 || ORIG_REF_NAME==dpss_zcu102_rx_rst_ddr4_0_300M_0} -quiet] -quiet
+
+# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xbar_1/dpss_zcu102_rx_xbar_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_xbar_1 || ORIG_REF_NAME==dpss_zcu102_rx_xbar_1} -quiet] -quiet
+
+# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_interconnect_0_0/dpss_zcu102_rx_axi_interconnect_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_axi_interconnect_0_0 || ORIG_REF_NAME==dpss_zcu102_rx_axi_interconnect_0_0} -quiet] -quiet
+
+# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_clk_wiz_0_1 || ORIG_REF_NAME==dpss_zcu102_rx_clk_wiz_0_1} -quiet] -quiet
+
 # IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_auto_ds_0 || ORIG_REF_NAME==dpss_zcu102_rx_auto_ds_0} -quiet] -quiet
 
@@ -134,5 +146,8 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_
 
 # IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_5/dpss_zcu102_rx_auto_pc_5.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_auto_pc_5 || ORIG_REF_NAME==dpss_zcu102_rx_auto_pc_5} -quiet] -quiet
+
+# IP: bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_cc_0/dpss_zcu102_rx_auto_cc_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dpss_zcu102_rx_auto_cc_0 || ORIG_REF_NAME==dpss_zcu102_rx_auto_cc_0} -quiet] -quiet
 
 # XDC: bd/dpss_zcu102_rx/dpss_zcu102_rx_ooc.xdc

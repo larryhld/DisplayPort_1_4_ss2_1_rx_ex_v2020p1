@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Wed Apr  7 18:49:14 2021
+-- Date        : Wed Apr  7 18:49:13 2021
 -- Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_2/dpss_zcu102_rx_auto_ds_2_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top dpss_zcu102_rx_auto_ds_2 -prefix
+--               dpss_zcu102_rx_auto_ds_2_ dpss_zcu102_rx_auto_ds_2_sim_netlist.vhdl
 -- Design      : dpss_zcu102_rx_auto_ds_2
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -28,8 +28,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_b_downsizer is
     empty : in STD_LOGIC;
     m_axi_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_b_downsizer : entity is "axi_dwidth_converter_v2_1_21_b_downsizer";
 end dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_b_downsizer;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_b_downsizer is
@@ -423,8 +421,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_r_downsizer is
     \WORD_LANE[2].S_AXI_RDATA_II_reg[95]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \WORD_LANE[3].S_AXI_RDATA_II_reg[127]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_r_downsizer : entity is "axi_dwidth_converter_v2_1_21_r_downsizer";
 end dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_r_downsizer;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_r_downsizer is
@@ -1942,8 +1938,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_w_downsizer is
     \current_word_1_reg[1]_1\ : in STD_LOGIC_VECTOR ( 15 downto 0 );
     D : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_w_downsizer : entity is "axi_dwidth_converter_v2_1_21_w_downsizer";
 end dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_w_downsizer;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_w_downsizer is
@@ -2342,8 +2336,6 @@ entity dpss_zcu102_rx_auto_ds_2_xpm_cdc_async_rst is
   attribute INIT_SYNC_FF of dpss_zcu102_rx_auto_ds_2_xpm_cdc_async_rst : entity is 0;
   attribute INV_DEF_VAL : string;
   attribute INV_DEF_VAL of dpss_zcu102_rx_auto_ds_2_xpm_cdc_async_rst : entity is "1'b1";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_xpm_cdc_async_rst : entity is "xpm_cdc_async_rst";
   attribute RST_ACTIVE_HIGH : integer;
   attribute RST_ACTIVE_HIGH of dpss_zcu102_rx_auto_ds_2_xpm_cdc_async_rst : entity is 1;
   attribute VERSION : integer;
@@ -2554,8 +2546,6 @@ entity dpss_zcu102_rx_auto_ds_2_dmem is
     I24 : in STD_LOGIC_VECTOR ( 4 downto 0 );
     \gpr1.dout_i_reg[0]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_dmem : entity is "dmem";
 end dpss_zcu102_rx_auto_ds_2_dmem;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_dmem is
@@ -3627,8 +3617,6 @@ entity dpss_zcu102_rx_auto_ds_2_rd_bin_cntr is
     clk : in STD_LOGIC;
     \gc0.count_d1_reg[0]_0\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_rd_bin_cntr : entity is "rd_bin_cntr";
 end dpss_zcu102_rx_auto_ds_2_rd_bin_cntr;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_rd_bin_cntr is
@@ -4191,8 +4179,6 @@ entity dpss_zcu102_rx_auto_ds_2_rd_fwft is
     rd_en : in STD_LOGIC;
     \gc0.count_reg[4]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_rd_fwft : entity is "rd_fwft";
 end dpss_zcu102_rx_auto_ds_2_rd_fwft;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_rd_fwft is
@@ -4889,8 +4875,6 @@ entity dpss_zcu102_rx_auto_ds_2_rd_status_flags_ss is
     clk : in STD_LOGIC;
     ram_empty_fb_i_reg_0 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_rd_status_flags_ss : entity is "rd_status_flags_ss";
 end dpss_zcu102_rx_auto_ds_2_rd_status_flags_ss;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_rd_status_flags_ss is
@@ -5059,8 +5043,6 @@ entity dpss_zcu102_rx_auto_ds_2_wr_bin_cntr is
     clk : in STD_LOGIC;
     AR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_wr_bin_cntr : entity is "wr_bin_cntr";
 end dpss_zcu102_rx_auto_ds_2_wr_bin_cntr;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_wr_bin_cntr is
@@ -5957,8 +5939,6 @@ entity dpss_zcu102_rx_auto_ds_2_wr_status_flags_ss is
     AR : in STD_LOGIC_VECTOR ( 0 to 0 );
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_wr_status_flags_ss : entity is "wr_status_flags_ss";
 end dpss_zcu102_rx_auto_ds_2_wr_status_flags_ss;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_wr_status_flags_ss is
@@ -6219,8 +6199,6 @@ entity dpss_zcu102_rx_auto_ds_2_memory is
     I24 : in STD_LOGIC_VECTOR ( 4 downto 0 );
     \gpr1.dout_i_reg[0]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_memory : entity is "memory";
 end dpss_zcu102_rx_auto_ds_2_memory;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_memory is
@@ -7005,8 +6983,6 @@ entity dpss_zcu102_rx_auto_ds_2_rd_logic is
     \gc0.count_d1_reg[0]\ : in STD_LOGIC;
     rd_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_rd_logic : entity is "rd_logic";
 end dpss_zcu102_rx_auto_ds_2_rd_logic;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_rd_logic is
@@ -7165,8 +7141,6 @@ entity dpss_zcu102_rx_auto_ds_2_reset_blk_ramfifo is
     rd_en : in STD_LOGIC;
     \goreg_dm.dout_i_reg[28]\ : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_reset_blk_ramfifo : entity is "reset_blk_ramfifo";
 end dpss_zcu102_rx_auto_ds_2_reset_blk_ramfifo;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_reset_blk_ramfifo is
@@ -7713,8 +7687,6 @@ entity dpss_zcu102_rx_auto_ds_2_wr_logic is
     ram_empty_fb_i_i_3 : in STD_LOGIC_VECTOR ( 4 downto 0 );
     ram_empty_fb_i_i_2 : in STD_LOGIC_VECTOR ( 4 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_wr_logic : entity is "wr_logic";
 end dpss_zcu102_rx_auto_ds_2_wr_logic;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_wr_logic is
@@ -7872,8 +7844,6 @@ entity dpss_zcu102_rx_auto_ds_2_fifo_generator_ramfifo is
     rd_en : in STD_LOGIC;
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_fifo_generator_ramfifo : entity is "fifo_generator_ramfifo";
 end dpss_zcu102_rx_auto_ds_2_fifo_generator_ramfifo;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_fifo_generator_ramfifo is
@@ -8124,8 +8094,6 @@ entity dpss_zcu102_rx_auto_ds_2_fifo_generator_top is
     rd_en : in STD_LOGIC;
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_fifo_generator_top : entity is "fifo_generator_top";
 end dpss_zcu102_rx_auto_ds_2_fifo_generator_top;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_fifo_generator_top is
@@ -8223,8 +8191,6 @@ entity dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5_synth is
     rd_en : in STD_LOGIC;
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5_synth : entity is "fifo_generator_v13_2_5_synth";
 end dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5_synth;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5_synth is
@@ -8949,8 +8915,6 @@ entity dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5 is
   attribute C_WR_PNTR_WIDTH_WRCH of dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5 : entity is 4;
   attribute C_WR_RESPONSE_LATENCY : integer;
   attribute C_WR_RESPONSE_LATENCY of dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5 : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5 : entity is "fifo_generator_v13_2_5";
 end dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_fifo_generator_v13_2_5 is
@@ -12157,8 +12121,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_fifo_gen is
     access_is_fix_q : in STD_LOGIC;
     \gpr1.dout_i_reg[1]_0\ : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_fifo_gen : entity is "axi_data_fifo_v2_1_20_fifo_gen";
 end dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_fifo_gen;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_fifo_gen is
@@ -19357,8 +19319,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_axic_fifo is
     access_is_fix_q : in STD_LOGIC;
     \gpr1.dout_i_reg[1]_0\ : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_axic_fifo : entity is "axi_data_fifo_v2_1_20_axic_fifo";
 end dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_axic_fifo;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_data_fifo_v2_1_20_axic_fifo is
@@ -19799,8 +19759,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_a_downsizer is
     s_axi_awregion : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_awqos : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_a_downsizer : entity is "axi_dwidth_converter_v2_1_21_a_downsizer";
 end dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_a_downsizer;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_a_downsizer is
@@ -26779,8 +26737,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_axi_downsizer is
     s_axi_wstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
     s_axi_wdata : in STD_LOGIC_VECTOR ( 127 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_axi_downsizer : entity is "axi_dwidth_converter_v2_1_21_axi_downsizer";
 end dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_axi_downsizer;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_axi_downsizer is
@@ -27166,8 +27122,6 @@ entity dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_top is
   attribute C_S_AXI_ID_WIDTH of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_top : entity is 17;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_top : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_top : entity is "axi_dwidth_converter_v2_1_21_top";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of dpss_zcu102_rx_auto_ds_2_axi_dwidth_converter_v2_1_21_top : entity is 1;
   attribute P_AXI4 : integer;

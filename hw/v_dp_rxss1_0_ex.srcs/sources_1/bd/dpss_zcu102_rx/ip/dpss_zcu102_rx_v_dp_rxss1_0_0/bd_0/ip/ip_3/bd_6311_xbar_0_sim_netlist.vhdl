@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Wed Apr  7 18:46:22 2021
+-- Date        : Wed Apr  7 18:46:18 2021
 -- Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_3/bd_6311_xbar_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top bd_6311_xbar_0 -prefix
+--               bd_6311_xbar_0_ bd_6311_xbar_0_sim_netlist.vhdl
 -- Design      : bd_6311_xbar_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -20,8 +20,6 @@ entity bd_6311_xbar_0_cdc_sync is
     aresetn : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_cdc_sync : entity is "cdc_sync";
 end bd_6311_xbar_0_cdc_sync;
 
 architecture STRUCTURE of bd_6311_xbar_0_cdc_sync is
@@ -109,8 +107,6 @@ entity bd_6311_xbar_0_upcnt_n is
     seq_cnt_en : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_upcnt_n : entity is "upcnt_n";
 end bd_6311_xbar_0_upcnt_n;
 
 architecture STRUCTURE of bd_6311_xbar_0_upcnt_n is
@@ -383,8 +379,6 @@ entity bd_6311_xbar_0_sc_axi2sc_v1_0_7_top is
   attribute LP_RUSER_INDEX of bd_6311_xbar_0_sc_axi2sc_v1_0_7_top : entity is 0;
   attribute LP_WUSER_INDEX : integer;
   attribute LP_WUSER_INDEX of bd_6311_xbar_0_sc_axi2sc_v1_0_7_top : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_axi2sc_v1_0_7_top : entity is "sc_axi2sc_v1_0_7_top";
   attribute T_SC_ADDR_WIDTH : integer;
   attribute T_SC_ADDR_WIDTH of bd_6311_xbar_0_sc_axi2sc_v1_0_7_top : entity is 13;
   attribute T_SC_ARUSER_WIDTH : integer;
@@ -2791,8 +2785,6 @@ entity bd_6311_xbar_0_sc_exit_v1_0_10_exit is
     m_axi_arready : in STD_LOGIC;
     m_axi_awready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_exit_v1_0_10_exit : entity is "sc_exit_v1_0_10_exit";
 end bd_6311_xbar_0_sc_exit_v1_0_10_exit;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_exit_v1_0_10_exit is
@@ -3166,8 +3158,6 @@ entity bd_6311_xbar_0_sc_mmu_v1_0_9_decerr_slave is
     s_axi_bready : in STD_LOGIC;
     \gen_axilite.gen_write.s_axi_bvalid_i_reg_0\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_mmu_v1_0_9_decerr_slave : entity is "sc_mmu_v1_0_9_decerr_slave";
 end bd_6311_xbar_0_sc_mmu_v1_0_9_decerr_slave;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_mmu_v1_0_9_decerr_slave is
@@ -3375,8 +3365,6 @@ entity bd_6311_xbar_0_sc_node_v1_0_11_arb_alg_rr is
     s_sc_aclk : in STD_LOGIC;
     \grant_i_reg[1]_1\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_node_v1_0_11_arb_alg_rr : entity is "sc_node_v1_0_11_arb_alg_rr";
 end bd_6311_xbar_0_sc_node_v1_0_11_arb_alg_rr;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_node_v1_0_11_arb_alg_rr is
@@ -3688,8 +3676,6 @@ entity bd_6311_xbar_0_sc_node_v1_0_11_fi_regulator is
     s_sc_aclk : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_node_v1_0_11_fi_regulator : entity is "sc_node_v1_0_11_fi_regulator";
 end bd_6311_xbar_0_sc_node_v1_0_11_fi_regulator;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_node_v1_0_11_fi_regulator is
@@ -3793,8 +3779,6 @@ entity bd_6311_xbar_0_sc_node_v1_0_11_mi_handler is
     s_sc_aclk : in STD_LOGIC;
     s_sc_send : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_node_v1_0_11_mi_handler : entity is "sc_node_v1_0_11_mi_handler";
 end bd_6311_xbar_0_sc_node_v1_0_11_mi_handler;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_node_v1_0_11_mi_handler is
@@ -4640,8 +4624,6 @@ entity bd_6311_xbar_0_sc_sc2axi_v1_0_7_top is
   attribute LP_RUSER_INDEX of bd_6311_xbar_0_sc_sc2axi_v1_0_7_top : entity is 0;
   attribute LP_WUSER_INDEX : integer;
   attribute LP_WUSER_INDEX of bd_6311_xbar_0_sc_sc2axi_v1_0_7_top : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_sc2axi_v1_0_7_top : entity is "sc_sc2axi_v1_0_7_top";
   attribute T_SC_ADDR_WIDTH : integer;
   attribute T_SC_ADDR_WIDTH of bd_6311_xbar_0_sc_sc2axi_v1_0_7_top : entity is 13;
   attribute T_SC_ARUSER_WIDTH : integer;
@@ -11240,8 +11222,6 @@ entity bd_6311_xbar_0_sc_si_converter_v1_0_9_splitter is
     \gen_no_wsplitter.gen_endpoint_woffset.gen_wbypass_offset_reg.woffset_valid_i_reg_1\ : in STD_LOGIC;
     SR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_si_converter_v1_0_9_splitter : entity is "sc_si_converter_v1_0_9_splitter";
 end bd_6311_xbar_0_sc_si_converter_v1_0_9_splitter;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_si_converter_v1_0_9_splitter is
@@ -11413,8 +11393,6 @@ entity bd_6311_xbar_0_sc_switchboard_v1_0_6_top is
   attribute LP_MUX_IMPL of bd_6311_xbar_0_sc_switchboard_v1_0_6_top : entity is "32'b00000000000000000000000000000000";
   attribute LP_M_SC_SEL_MI_PIPELINE_DEPTH : string;
   attribute LP_M_SC_SEL_MI_PIPELINE_DEPTH of bd_6311_xbar_0_sc_switchboard_v1_0_6_top : entity is "32'b00000000000000000000000000000000";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_switchboard_v1_0_6_top : entity is "sc_switchboard_v1_0_6_top";
 end bd_6311_xbar_0_sc_switchboard_v1_0_6_top;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_switchboard_v1_0_6_top is
@@ -12668,8 +12646,6 @@ entity bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_singleorder is
     m_axi_arready : in STD_LOGIC;
     p_0_in : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_singleorder : entity is "sc_transaction_regulator_v1_0_8_singleorder";
 end bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_singleorder;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_singleorder is
@@ -15489,8 +15465,6 @@ entity bd_6311_xbar_0_sc_util_v1_0_4_axi_splitter is
     \m_ready_d_reg[1]_3\ : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_util_v1_0_4_axi_splitter : entity is "sc_util_v1_0_4_axi_splitter";
 end bd_6311_xbar_0_sc_util_v1_0_4_axi_splitter;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_util_v1_0_4_axi_splitter is
@@ -15650,8 +15624,6 @@ entity bd_6311_xbar_0_sc_util_v1_0_4_axic_reg_srl_fifo is
     \gen_pipelined.state_reg[0]_2\ : in STD_LOGIC;
     s_ready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_util_v1_0_4_axic_reg_srl_fifo : entity is "sc_util_v1_0_4_axic_reg_srl_fifo";
 end bd_6311_xbar_0_sc_util_v1_0_4_axic_reg_srl_fifo;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_util_v1_0_4_axic_reg_srl_fifo is
@@ -18248,8 +18220,6 @@ entity bd_6311_xbar_0_sc_util_v1_0_4_srl_rtl is
     cmd_wvalid_d : in STD_LOGIC;
     w_cmd_mesg : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_util_v1_0_4_srl_rtl : entity is "sc_util_v1_0_4_srl_rtl";
 end bd_6311_xbar_0_sc_util_v1_0_4_srl_rtl;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_util_v1_0_4_srl_rtl is
@@ -20932,8 +20902,6 @@ entity bd_6311_xbar_0_bd_6050_arinsw_0 is
     S00_SC_AR_payld : in STD_LOGIC_VECTOR ( 17 downto 0 );
     S_SC_AR_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_arinsw_0 : entity is "bd_6050_arinsw_0";
 end bd_6311_xbar_0_bd_6050_arinsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_arinsw_0 is
@@ -21005,8 +20973,6 @@ entity bd_6311_xbar_0_bd_6050_aroutsw_0 is
     M_SC_AR_send : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M_SC_AR_payld : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_aroutsw_0 : entity is "bd_6050_aroutsw_0";
 end bd_6311_xbar_0_bd_6050_aroutsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_aroutsw_0 is
@@ -21083,8 +21049,6 @@ entity bd_6311_xbar_0_bd_6050_awinsw_0 is
     S00_SC_AW_payld : in STD_LOGIC_VECTOR ( 17 downto 0 );
     S_SC_AW_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_awinsw_0 : entity is "bd_6050_awinsw_0";
 end bd_6311_xbar_0_bd_6050_awinsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_awinsw_0 is
@@ -21156,8 +21120,6 @@ entity bd_6311_xbar_0_bd_6050_awoutsw_0 is
     M_SC_AW_send : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M_SC_AW_payld : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_awoutsw_0 : entity is "bd_6050_awoutsw_0";
 end bd_6311_xbar_0_bd_6050_awoutsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_awoutsw_0 is
@@ -21234,8 +21196,6 @@ entity bd_6311_xbar_0_bd_6050_binsw_0 is
     M_SC_B_payld : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M00_SC_B_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_binsw_0 : entity is "bd_6050_binsw_0";
 end bd_6311_xbar_0_bd_6050_binsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_binsw_0 is
@@ -21329,8 +21289,6 @@ entity bd_6311_xbar_0_bd_6050_m00s2a_0 is
     s_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00s2a_0 : entity is "bd_6050_m00s2a_0";
 end bd_6311_xbar_0_bd_6050_m00s2a_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00s2a_0 is
@@ -21551,8 +21509,6 @@ entity bd_6311_xbar_0_bd_6050_m01s2a_0 is
     s_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01s2a_0 : entity is "bd_6050_m01s2a_0";
 end bd_6311_xbar_0_bd_6050_m01s2a_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01s2a_0 is
@@ -21745,8 +21701,6 @@ entity bd_6311_xbar_0_bd_6050_rinsw_0 is
     M_SC_R_payld : in STD_LOGIC_VECTOR ( 33 downto 0 );
     M00_SC_R_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_rinsw_0 : entity is "bd_6050_rinsw_0";
 end bd_6311_xbar_0_bd_6050_rinsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_rinsw_0 is
@@ -21847,8 +21801,6 @@ entity bd_6311_xbar_0_bd_6050_s00a2s_0 is
     m_axi_arvalid : in STD_LOGIC;
     m_axi_rready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_s00a2s_0 : entity is "bd_6050_s00a2s_0";
 end bd_6311_xbar_0_bd_6050_s00a2s_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_s00a2s_0 is
@@ -22047,8 +21999,6 @@ entity bd_6311_xbar_0_bd_6050_winsw_0 is
     S00_SC_W_payld : in STD_LOGIC_VECTOR ( 37 downto 0 );
     S_SC_W_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_winsw_0 : entity is "bd_6050_winsw_0";
 end bd_6311_xbar_0_bd_6050_winsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_winsw_0 is
@@ -22116,8 +22066,6 @@ entity bd_6311_xbar_0_bd_6050_woutsw_0 is
     M_SC_W_payld : in STD_LOGIC_VECTOR ( 35 downto 0 );
     m_sc_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_woutsw_0 : entity is "bd_6050_woutsw_0";
 end bd_6311_xbar_0_bd_6050_woutsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_woutsw_0 is
@@ -22182,8 +22130,6 @@ entity bd_6311_xbar_0_lpf is
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_lpf : entity is "lpf";
 end bd_6311_xbar_0_lpf;
 
 architecture STRUCTURE of bd_6311_xbar_0_lpf is
@@ -22260,8 +22206,6 @@ entity bd_6311_xbar_0_sequence_psr is
     lpf_int : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sequence_psr : entity is "sequence_psr";
 end bd_6311_xbar_0_sequence_psr;
 
 architecture STRUCTURE of bd_6311_xbar_0_sequence_psr is
@@ -22638,8 +22582,6 @@ entity bd_6311_xbar_0_sc_exit_v1_0_10_top is
   attribute C_WRITE_ACCEPTANCE of bd_6311_xbar_0_sc_exit_v1_0_10_top : entity is 32;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of bd_6311_xbar_0_sc_exit_v1_0_10_top : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_exit_v1_0_10_top : entity is "sc_exit_v1_0_10_top";
   attribute P_BYPASS : integer;
   attribute P_BYPASS of bd_6311_xbar_0_sc_exit_v1_0_10_top : entity is 0;
   attribute P_FULLY_PIPELINED : integer;
@@ -27460,8 +27402,6 @@ entity bd_6311_xbar_0_sc_mmu_v1_0_9_top is
   attribute C_WRITE_ACCEPTANCE of bd_6311_xbar_0_sc_mmu_v1_0_9_top : entity is 32;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of bd_6311_xbar_0_sc_mmu_v1_0_9_top : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_mmu_v1_0_9_top : entity is "sc_mmu_v1_0_9_top";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of bd_6311_xbar_0_sc_mmu_v1_0_9_top : entity is 1;
   attribute P_AXI4 : integer;
@@ -31534,8 +31474,6 @@ entity bd_6311_xbar_0_sc_node_v1_0_11_reg_fifo is
     m_sc_areset_r : in STD_LOGIC;
     m_sc_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_node_v1_0_11_reg_fifo : entity is "sc_node_v1_0_11_reg_fifo";
 end bd_6311_xbar_0_sc_node_v1_0_11_reg_fifo;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_node_v1_0_11_reg_fifo is
@@ -33173,8 +33111,6 @@ entity bd_6311_xbar_0_sc_node_v1_0_11_top is
   attribute LP_S_STATIC_DWIDTH of bd_6311_xbar_0_sc_node_v1_0_11_top : entity is 1;
   attribute LP_ZERO_ROUTE_WIDTH : integer;
   attribute LP_ZERO_ROUTE_WIDTH of bd_6311_xbar_0_sc_node_v1_0_11_top : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_node_v1_0_11_top : entity is "sc_node_v1_0_11_top";
   attribute P_NUM_OUTSTANDING : integer;
   attribute P_NUM_OUTSTANDING of bd_6311_xbar_0_sc_node_v1_0_11_top : entity is 16;
 end bd_6311_xbar_0_sc_node_v1_0_11_top;
@@ -37378,8 +37314,6 @@ entity bd_6311_xbar_0_sc_si_converter_v1_0_9_offset_fifo is
     s_ready : in STD_LOGIC;
     \S00_AXI_rresp[1]\ : in STD_LOGIC_VECTOR ( 33 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_si_converter_v1_0_9_offset_fifo : entity is "sc_si_converter_v1_0_9_offset_fifo";
 end bd_6311_xbar_0_sc_si_converter_v1_0_9_offset_fifo;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_si_converter_v1_0_9_offset_fifo is
@@ -40366,8 +40300,6 @@ entity bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_top is
   attribute C_WRITE_ACCEPTANCE of bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_top : entity is 32;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_top : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_top : entity is "sc_transaction_regulator_v1_0_8_top";
   attribute P_FULLY_PIPELINED : integer;
   attribute P_FULLY_PIPELINED of bd_6311_xbar_0_sc_transaction_regulator_v1_0_8_top : entity is 2;
   attribute P_ID_BUFFER_WIDTH : integer;
@@ -46059,8 +45991,6 @@ entity bd_6311_xbar_0_bd_6050_boutsw_0 is
     s_sc_payld : in STD_LOGIC_VECTOR ( 3 downto 0 );
     S_SC_B_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_boutsw_0 : entity is "bd_6050_boutsw_0";
 end bd_6311_xbar_0_bd_6050_boutsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_boutsw_0 is
@@ -46127,8 +46057,6 @@ entity bd_6311_xbar_0_bd_6050_m00arn_0 is
     M00_SC_AR_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M00_SC_AR_payld : in STD_LOGIC_VECTOR ( 11 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00arn_0 : entity is "bd_6050_m00arn_0";
 end bd_6311_xbar_0_bd_6050_m00arn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00arn_0 is
@@ -46299,8 +46227,6 @@ entity bd_6311_xbar_0_bd_6050_m00awn_0 is
     M00_SC_AW_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M00_SC_AW_payld : in STD_LOGIC_VECTOR ( 11 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00awn_0 : entity is "bd_6050_m00awn_0";
 end bd_6311_xbar_0_bd_6050_m00awn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00awn_0 is
@@ -46472,8 +46398,6 @@ entity bd_6311_xbar_0_bd_6050_m00bn_0 is
     S_SC_B_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     S00_SC_B_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00bn_0 : entity is "bd_6050_m00bn_0";
 end bd_6311_xbar_0_bd_6050_m00bn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00bn_0 is
@@ -46668,8 +46592,6 @@ entity bd_6311_xbar_0_bd_6050_m00e_0 is
     M00_AXI_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M00_AXI_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00e_0 : entity is "bd_6050_m00e_0";
 end bd_6311_xbar_0_bd_6050_m00e_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00e_0 is
@@ -46874,8 +46796,6 @@ entity bd_6311_xbar_0_bd_6050_m00rn_0 is
     S_SC_R_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     S00_SC_R_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00rn_0 : entity is "bd_6050_m00rn_0";
 end bd_6311_xbar_0_bd_6050_m00rn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00rn_0 is
@@ -47036,8 +46956,6 @@ entity bd_6311_xbar_0_bd_6050_m00wn_0 is
     M00_SC_W_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M00_SC_W_payld : in STD_LOGIC_VECTOR ( 35 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m00wn_0 : entity is "bd_6050_m00wn_0";
 end bd_6311_xbar_0_bd_6050_m00wn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m00wn_0 is
@@ -47202,8 +47120,6 @@ entity bd_6311_xbar_0_bd_6050_m01arn_0 is
     M01_SC_AR_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M01_SC_AR_payld : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01arn_0 : entity is "bd_6050_m01arn_0";
 end bd_6311_xbar_0_bd_6050_m01arn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01arn_0 is
@@ -47374,8 +47290,6 @@ entity bd_6311_xbar_0_bd_6050_m01awn_0 is
     M01_SC_AW_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M01_SC_AW_payld : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01awn_0 : entity is "bd_6050_m01awn_0";
 end bd_6311_xbar_0_bd_6050_m01awn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01awn_0 is
@@ -47547,8 +47461,6 @@ entity bd_6311_xbar_0_bd_6050_m01bn_0 is
     S_SC_B_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     S01_SC_B_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01bn_0 : entity is "bd_6050_m01bn_0";
 end bd_6311_xbar_0_bd_6050_m01bn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01bn_0 is
@@ -47743,8 +47655,6 @@ entity bd_6311_xbar_0_bd_6050_m01e_0 is
     M01_AXI_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M01_AXI_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01e_0 : entity is "bd_6050_m01e_0";
 end bd_6311_xbar_0_bd_6050_m01e_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01e_0 is
@@ -47955,8 +47865,6 @@ entity bd_6311_xbar_0_bd_6050_m01rn_0 is
     S_SC_R_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     S01_SC_R_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01rn_0 : entity is "bd_6050_m01rn_0";
 end bd_6311_xbar_0_bd_6050_m01rn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01rn_0 is
@@ -48117,8 +48025,6 @@ entity bd_6311_xbar_0_bd_6050_m01wn_0 is
     M01_SC_W_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M01_SC_W_payld : in STD_LOGIC_VECTOR ( 35 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_m01wn_0 : entity is "bd_6050_m01wn_0";
 end bd_6311_xbar_0_bd_6050_m01wn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_m01wn_0 is
@@ -48285,8 +48191,6 @@ entity bd_6311_xbar_0_bd_6050_routsw_0 is
     \gen_single_rank.data_reg[52]\ : in STD_LOGIC_VECTOR ( 67 downto 0 );
     S_SC_R_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_routsw_0 : entity is "bd_6050_routsw_0";
 end bd_6311_xbar_0_bd_6050_routsw_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_routsw_0 is
@@ -48397,8 +48301,6 @@ entity bd_6311_xbar_0_bd_6050_s00mmu_0 is
     s_axi_rlast : in STD_LOGIC;
     s_axi_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_s00mmu_0 : entity is "bd_6050_s00mmu_0";
 end bd_6311_xbar_0_bd_6050_s00mmu_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_s00mmu_0 is
@@ -48685,8 +48587,6 @@ entity bd_6311_xbar_0_bd_6050_s00tr_0 is
     \gen_endpoint.r_cnt_reg[0]\ : in STD_LOGIC;
     S00_AXI_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_s00tr_0 : entity is "bd_6050_s00tr_0";
 end bd_6311_xbar_0_bd_6050_s00tr_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_s00tr_0 is
@@ -48894,8 +48794,6 @@ entity bd_6311_xbar_0_bd_6050_sarn_0 is
     S_SC_AR_payld : in STD_LOGIC_VECTOR ( 17 downto 0 );
     S00_SC_AR_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_sarn_0 : entity is "bd_6050_sarn_0";
 end bd_6311_xbar_0_bd_6050_sarn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_sarn_0 is
@@ -49070,8 +48968,6 @@ entity bd_6311_xbar_0_bd_6050_sawn_0 is
     S_SC_AW_payld : in STD_LOGIC_VECTOR ( 17 downto 0 );
     S00_SC_AW_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_sawn_0 : entity is "bd_6050_sawn_0";
 end bd_6311_xbar_0_bd_6050_sawn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_sawn_0 is
@@ -49246,8 +49142,6 @@ entity bd_6311_xbar_0_bd_6050_sbn_0 is
     M00_SC_B_payld : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M_SC_B_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_sbn_0 : entity is "bd_6050_sbn_0";
 end bd_6311_xbar_0_bd_6050_sbn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_sbn_0 is
@@ -49413,8 +49307,6 @@ entity bd_6311_xbar_0_bd_6050_srn_0 is
     M00_SC_R_payld : in STD_LOGIC_VECTOR ( 33 downto 0 );
     M_SC_R_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_srn_0 : entity is "bd_6050_srn_0";
 end bd_6311_xbar_0_bd_6050_srn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_srn_0 is
@@ -49584,8 +49476,6 @@ entity bd_6311_xbar_0_bd_6050_swn_0 is
     S_SC_W_payld : in STD_LOGIC_VECTOR ( 37 downto 0 );
     S00_SC_W_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_swn_0 : entity is "bd_6050_swn_0";
 end bd_6311_xbar_0_bd_6050_swn_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_swn_0 is
@@ -49749,8 +49639,6 @@ entity bd_6311_xbar_0_proc_sys_reset is
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_proc_sys_reset : entity is "proc_sys_reset";
 end bd_6311_xbar_0_proc_sys_reset;
 
 architecture STRUCTURE of bd_6311_xbar_0_proc_sys_reset is
@@ -49802,8 +49690,6 @@ entity bd_6311_xbar_0_sc_node_v1_0_11_fifo is
     m_sc_areset_r : in STD_LOGIC;
     m_sc_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_node_v1_0_11_fifo : entity is "sc_node_v1_0_11_fifo";
 end bd_6311_xbar_0_sc_node_v1_0_11_fifo;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_node_v1_0_11_fifo is
@@ -50007,8 +49893,6 @@ entity bd_6311_xbar_0_sc_si_converter_v1_0_9_wrap_narrow is
     \skid_buffer_reg[1136]\ : in STD_LOGIC_VECTOR ( 17 downto 0 );
     m_axi_arready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_si_converter_v1_0_9_wrap_narrow : entity is "sc_si_converter_v1_0_9_wrap_narrow";
 end bd_6311_xbar_0_sc_si_converter_v1_0_9_wrap_narrow;
 
 architecture STRUCTURE of bd_6311_xbar_0_sc_si_converter_v1_0_9_wrap_narrow is
@@ -51442,8 +51326,6 @@ entity bd_6311_xbar_0_bd_6050_psr_aclk_0 is
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_psr_aclk_0 : entity is "bd_6050_psr_aclk_0";
 end bd_6311_xbar_0_bd_6050_psr_aclk_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_psr_aclk_0 is
@@ -51502,8 +51384,6 @@ entity bd_6311_xbar_0_m00_exit_pipeline_imp_1AAUMAE is
     M00_AXI_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M00_AXI_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_m00_exit_pipeline_imp_1AAUMAE : entity is "m00_exit_pipeline_imp_1AAUMAE";
 end bd_6311_xbar_0_m00_exit_pipeline_imp_1AAUMAE;
 
 architecture STRUCTURE of bd_6311_xbar_0_m00_exit_pipeline_imp_1AAUMAE is
@@ -51585,8 +51465,6 @@ entity bd_6311_xbar_0_m00_nodes_imp_1WIE3JU is
     M00_SC_W_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M00_SC_W_payld : in STD_LOGIC_VECTOR ( 35 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_m00_nodes_imp_1WIE3JU : entity is "m00_nodes_imp_1WIE3JU";
 end bd_6311_xbar_0_m00_nodes_imp_1WIE3JU;
 
 architecture STRUCTURE of bd_6311_xbar_0_m00_nodes_imp_1WIE3JU is
@@ -51692,8 +51570,6 @@ entity bd_6311_xbar_0_m01_exit_pipeline_imp_1DDODCM is
     M01_AXI_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M01_AXI_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_m01_exit_pipeline_imp_1DDODCM : entity is "m01_exit_pipeline_imp_1DDODCM";
 end bd_6311_xbar_0_m01_exit_pipeline_imp_1DDODCM;
 
 architecture STRUCTURE of bd_6311_xbar_0_m01_exit_pipeline_imp_1DDODCM is
@@ -51775,8 +51651,6 @@ entity bd_6311_xbar_0_m01_nodes_imp_TXQ9ZG is
     M01_SC_W_send : in STD_LOGIC_VECTOR ( 0 to 0 );
     M01_SC_W_payld : in STD_LOGIC_VECTOR ( 35 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_m01_nodes_imp_TXQ9ZG : entity is "m01_nodes_imp_TXQ9ZG";
 end bd_6311_xbar_0_m01_nodes_imp_TXQ9ZG;
 
 architecture STRUCTURE of bd_6311_xbar_0_m01_nodes_imp_TXQ9ZG is
@@ -51874,8 +51748,6 @@ entity bd_6311_xbar_0_s00_nodes_imp_DEJO7J is
     S_SC_W_payld : in STD_LOGIC_VECTOR ( 37 downto 0 );
     S00_SC_W_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_s00_nodes_imp_DEJO7J : entity is "s00_nodes_imp_DEJO7J";
 end bd_6311_xbar_0_s00_nodes_imp_DEJO7J;
 
 architecture STRUCTURE of bd_6311_xbar_0_s00_nodes_imp_DEJO7J is
@@ -52419,8 +52291,6 @@ entity bd_6311_xbar_0_sc_si_converter_v1_0_9_top is
   attribute C_WRITE_ACCEPTANCE of bd_6311_xbar_0_sc_si_converter_v1_0_9_top : entity is 32;
   attribute C_WRITE_WATERMARK : integer;
   attribute C_WRITE_WATERMARK of bd_6311_xbar_0_sc_si_converter_v1_0_9_top : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_sc_si_converter_v1_0_9_top : entity is "sc_si_converter_v1_0_9_top";
   attribute P_EXOK : string;
   attribute P_EXOK of bd_6311_xbar_0_sc_si_converter_v1_0_9_top : entity is "2'b01";
   attribute P_FULLY_PIPELINED : integer;
@@ -57771,8 +57641,6 @@ entity bd_6311_xbar_0_bd_6050_s00sic_0 is
     m_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_s00sic_0 : entity is "bd_6050_s00sic_0";
 end bd_6311_xbar_0_bd_6050_s00sic_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_s00sic_0 is
@@ -57998,8 +57866,6 @@ entity bd_6311_xbar_0_clk_map_imp_Q7C2A5 is
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_clk_map_imp_Q7C2A5 : entity is "clk_map_imp_Q7C2A5";
 end bd_6311_xbar_0_clk_map_imp_Q7C2A5;
 
 architecture STRUCTURE of bd_6311_xbar_0_clk_map_imp_Q7C2A5 is
@@ -59489,8 +59355,6 @@ entity bd_6311_xbar_0_bd_6050_arni_0 is
     S_SC_AR_payld : in STD_LOGIC_VECTOR ( 17 downto 0 );
     M_SC_AR_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_arni_0 : entity is "bd_6050_arni_0";
 end bd_6311_xbar_0_bd_6050_arni_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_arni_0 is
@@ -59663,8 +59527,6 @@ entity bd_6311_xbar_0_bd_6050_awni_0 is
     S_SC_AW_payld : in STD_LOGIC_VECTOR ( 17 downto 0 );
     M_SC_AW_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_awni_0 : entity is "bd_6050_awni_0";
 end bd_6311_xbar_0_bd_6050_awni_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_awni_0 is
@@ -59838,8 +59700,6 @@ entity bd_6311_xbar_0_bd_6050_bni_0 is
     S_SC_B_payld : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M_SC_B_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_bni_0 : entity is "bd_6050_bni_0";
 end bd_6311_xbar_0_bd_6050_bni_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_bni_0 is
@@ -60006,8 +59866,6 @@ entity bd_6311_xbar_0_bd_6050_rni_0 is
     S_SC_R_payld : in STD_LOGIC_VECTOR ( 33 downto 0 );
     M_SC_R_recv : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_rni_0 : entity is "bd_6050_rni_0";
 end bd_6311_xbar_0_bd_6050_rni_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_rni_0 is
@@ -60177,8 +60035,6 @@ entity bd_6311_xbar_0_bd_6050_wni_0 is
     S_SC_W_payld : in STD_LOGIC_VECTOR ( 37 downto 0 );
     M_SC_W_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050_wni_0 : entity is "bd_6050_wni_0";
 end bd_6311_xbar_0_bd_6050_wni_0;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050_wni_0 is
@@ -60380,8 +60236,6 @@ entity bd_6311_xbar_0_s00_entry_pipeline_imp_AJ74NP is
     m_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_rvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_s00_entry_pipeline_imp_AJ74NP : entity is "s00_entry_pipeline_imp_AJ74NP";
 end bd_6311_xbar_0_s00_entry_pipeline_imp_AJ74NP;
 
 architecture STRUCTURE of bd_6311_xbar_0_s00_entry_pipeline_imp_AJ74NP is
@@ -60626,8 +60480,6 @@ entity bd_6311_xbar_0_i_nodes_imp_18ADG0Z is
     S_SC_W_payld : in STD_LOGIC_VECTOR ( 37 downto 0 );
     M_SC_W_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_i_nodes_imp_18ADG0Z : entity is "i_nodes_imp_18ADG0Z";
 end bd_6311_xbar_0_i_nodes_imp_18ADG0Z;
 
 architecture STRUCTURE of bd_6311_xbar_0_i_nodes_imp_18ADG0Z is
@@ -60737,8 +60589,6 @@ entity bd_6311_xbar_0_switchboards_imp_PG6GRF is
     S00_SC_W_payld : in STD_LOGIC_VECTOR ( 37 downto 0 );
     m_sc_recv : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_switchboards_imp_PG6GRF : entity is "switchboards_imp_PG6GRF";
 end bd_6311_xbar_0_switchboards_imp_PG6GRF;
 
 architecture STRUCTURE of bd_6311_xbar_0_switchboards_imp_PG6GRF is
@@ -60998,8 +60848,6 @@ entity bd_6311_xbar_0_bd_6050 is
   );
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of bd_6311_xbar_0_bd_6050 : entity is "bd_6311_xbar_0.hwdef";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_6311_xbar_0_bd_6050 : entity is "bd_6050";
 end bd_6311_xbar_0_bd_6050;
 
 architecture STRUCTURE of bd_6311_xbar_0_bd_6050 is

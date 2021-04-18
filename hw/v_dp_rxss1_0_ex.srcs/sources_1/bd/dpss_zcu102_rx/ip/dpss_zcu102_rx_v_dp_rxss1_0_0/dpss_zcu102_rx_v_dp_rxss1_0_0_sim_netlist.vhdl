@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
 -- Date        : Wed Apr  7 18:54:48 2021
 -- Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/dpss_zcu102_rx_v_dp_rxss1_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top dpss_zcu102_rx_v_dp_rxss1_0_0 -prefix
+--               dpss_zcu102_rx_v_dp_rxss1_0_0_ dpss_zcu102_rx_v_dp_rxss1_0_0_sim_netlist.vhdl
 -- Design      : dpss_zcu102_rx_v_dp_rxss1_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -22,8 +22,6 @@ entity dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311_xlconstant_0_0 is
   attribute CHECK_LICENSE_TYPE of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311_xlconstant_0_0 : entity is "bd_6311_xlconstant_0_0,xlconstant_v1_1_7_xlconstant,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311_xlconstant_0_0 : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311_xlconstant_0_0 : entity is "bd_6311_xlconstant_0_0";
   attribute X_CORE_INFO : string;
   attribute X_CORE_INFO of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311_xlconstant_0_0 : entity is "xlconstant_v1_1_7_xlconstant,Vivado 2020.1";
 end dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311_xlconstant_0_0;
@@ -126,8 +124,6 @@ entity dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311 is
   );
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311 : entity is "dpss_zcu102_rx_v_dp_rxss1_0_0.hwdef";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311 : entity is "bd_6311";
 end dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311;
 
 architecture STRUCTURE of dpss_zcu102_rx_v_dp_rxss1_0_0_bd_6311 is

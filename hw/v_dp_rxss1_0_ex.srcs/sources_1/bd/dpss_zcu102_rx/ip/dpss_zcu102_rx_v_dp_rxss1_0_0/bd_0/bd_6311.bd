@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x3D1FB4C2F2965BF6",
+      "boundary_crc": "0x3D1FB4C2E4C1E9BB",
       "design_src": "SBD",
       "device": "xczu9eg-ffvb1156-2-e",
       "name": "bd_6311",
@@ -598,15 +598,15 @@
           },
           "FREQ_HZ": {
             "value": "300000000",
-            "value_src": "ip_prop"
+            "value_src": "user_prop"
           },
           "PHASE": {
-            "value": "0.0",
-            "value_src": "ip_prop"
+            "value": "0.00",
+            "value_src": "const_prop"
           },
           "CLK_DOMAIN": {
-            "value": "dpss_zcu102_rx_clk_wiz_0_0_clk_out1",
-            "value_src": "ip_prop"
+            "value": "dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk",
+            "value_src": "default_prop"
           },
           "LAYERED_METADATA": {
             "value": "undef",
@@ -681,12 +681,12 @@
             "value": "rx_vid_rst"
           },
           "CLK_DOMAIN": {
-            "value": "dpss_zcu102_rx_clk_wiz_0_0_clk_out1",
-            "value_src": "ip_prop"
+            "value": "dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk",
+            "value_src": "default_prop"
           },
           "FREQ_HZ": {
             "value": "300000000",
-            "value_src": "ip_prop"
+            "value_src": "user_prop"
           },
           "FREQ_TOLERANCE_HZ": {
             "value": "0",
@@ -697,8 +697,8 @@
             "value_src": "default"
           },
           "PHASE": {
-            "value": "0.0",
-            "value_src": "ip_prop"
+            "value": "0.00",
+            "value_src": "const_prop"
           }
         }
       },
@@ -724,12 +724,12 @@
             "value_src": "default"
           },
           "CLK_DOMAIN": {
-            "value": "dpss_zcu102_rx_clk_wiz_0_0_clk_out1",
-            "value_src": "ip_prop"
+            "value": "dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk",
+            "value_src": "default_prop"
           },
           "FREQ_HZ": {
             "value": "300000000",
-            "value_src": "ip_prop"
+            "value_src": "user_prop"
           },
           "FREQ_TOLERANCE_HZ": {
             "value": "0",
@@ -740,8 +740,8 @@
             "value_src": "default"
           },
           "PHASE": {
-            "value": "0.0",
-            "value_src": "ip_prop"
+            "value": "0.00",
+            "value_src": "const_prop"
           }
         }
       },
@@ -1101,34 +1101,10 @@
       }
     },
     "interface_nets": {
-      "dp_lnk_rx_sb_control_axi4s": {
-        "interface_ports": [
-          "m_axis_phy_rx_sb_control",
-          "dp/lnk_rx_sb_control_axi4s"
-        ]
-      },
-      "s_axi_1": {
-        "interface_ports": [
-          "s_axi",
-          "xbar/S00_AXI"
-        ]
-      },
-      "xbar_M00_AXI": {
-        "interface_ports": [
-          "xbar/M00_AXI",
-          "iic/S_AXI"
-        ]
-      },
       "xbar_M01_AXI": {
         "interface_ports": [
           "xbar/M01_AXI",
           "dp/dp_s_axilite"
-        ]
-      },
-      "s_axis_lnk_rx_lane0_1": {
-        "interface_ports": [
-          "s_axis_lnk_rx_lane0",
-          "dp/lnk_rx_axi4s"
         ]
       },
       "vb1_m_axis_video": {
@@ -1137,22 +1113,10 @@
           "vb1/m_axis_video"
         ]
       },
-      "s_axis_lnk_rx_lane3_1": {
+      "s_axi_1": {
         "interface_ports": [
-          "s_axis_lnk_rx_lane3",
-          "dp/lnk_rx_axi4s_lane3"
-        ]
-      },
-      "s_axis_lnk_rx_lane2_1": {
-        "interface_ports": [
-          "s_axis_lnk_rx_lane2",
-          "dp/lnk_rx_axi4s_lane2"
-        ]
-      },
-      "s_axis_lnk_rx_lane1_1": {
-        "interface_ports": [
-          "s_axis_lnk_rx_lane1",
-          "dp/lnk_rx_axi4s_lane1"
+          "s_axi",
+          "xbar/S00_AXI"
         ]
       },
       "s_axis_phy_rx_sb_status_1": {
@@ -1161,16 +1125,28 @@
           "dp/lnk_rx_sb_status_axi4s"
         ]
       },
-      "dp_i2c_edid": {
+      "s_axis_lnk_rx_lane1_1": {
         "interface_ports": [
-          "edid_iic",
-          "dp/i2c_edid"
+          "s_axis_lnk_rx_lane1",
+          "dp/lnk_rx_axi4s_lane1"
         ]
       },
-      "iic_IIC": {
+      "dp_dp_rx_vid_intf_str0": {
         "interface_ports": [
-          "ext_iic",
-          "iic/IIC"
+          "dp/dp_rx_vid_intf_str0",
+          "vb1/dp_vid"
+        ]
+      },
+      "s_axis_lnk_rx_lane0_1": {
+        "interface_ports": [
+          "s_axis_lnk_rx_lane0",
+          "dp/lnk_rx_axi4s"
+        ]
+      },
+      "xbar_M00_AXI": {
+        "interface_ports": [
+          "xbar/M00_AXI",
+          "iic/S_AXI"
         ]
       },
       "dp_aud_axi_egress": {
@@ -1179,10 +1155,34 @@
           "dp/aud_axi_egress"
         ]
       },
-      "dp_dp_rx_vid_intf_str0": {
+      "dp_i2c_edid": {
         "interface_ports": [
-          "dp/dp_rx_vid_intf_str0",
-          "vb1/dp_vid"
+          "edid_iic",
+          "dp/i2c_edid"
+        ]
+      },
+      "dp_lnk_rx_sb_control_axi4s": {
+        "interface_ports": [
+          "m_axis_phy_rx_sb_control",
+          "dp/lnk_rx_sb_control_axi4s"
+        ]
+      },
+      "s_axis_lnk_rx_lane3_1": {
+        "interface_ports": [
+          "s_axis_lnk_rx_lane3",
+          "dp/lnk_rx_axi4s_lane3"
+        ]
+      },
+      "iic_IIC": {
+        "interface_ports": [
+          "ext_iic",
+          "iic/IIC"
+        ]
+      },
+      "s_axis_lnk_rx_lane2_1": {
+        "interface_ports": [
+          "s_axis_lnk_rx_lane2",
+          "dp/lnk_rx_axi4s_lane2"
         ]
       }
     },

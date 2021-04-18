@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr  7 18:34:47 2021" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 18 14:50:20 2021" VIVADOVERSION="2020.1">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:zcu102:part0:3.3" DEVICE="xczu9eg" NAME="bd_6311" PACKAGE="ffvb1156" SPEEDGRADE="-2"/>
 
@@ -101,6 +101,41 @@
         <CONNECTION INSTANCE="iic" PORT="iic2intc_irpt"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane1_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tdata">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tdata"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s_axis_lnk_rx_lane1_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane1_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tuser">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tuser"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="s_axis_lnk_rx_lane1_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tvalid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tvalid"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="s_axis_phy_rx_sb_status_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_status_axi4s_tdata">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_status_axi4s_tdata"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s_axis_phy_rx_sb_status_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_status_axi4s_tready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_status_axi4s_tready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="s_axis_phy_rx_sb_status_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_status_axi4s_tvalid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_status_axi4s_tvalid"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="I" LEFT="12" NAME="s_axi_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="xbar_S00_AXI_awaddr">
       <CONNECTIONS>
         <CONNECTION INSTANCE="xbar" PORT="S00_AXI_awaddr"/>
@@ -196,51 +231,6 @@
         <CONNECTION INSTANCE="xbar" PORT="S00_AXI_rready"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="119" NAME="m_axis_video_stream1_tdata" RIGHT="0" SIGIS="undef" SIGNAME="vb1_m_axis_video_tdata">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tdata"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="m_axis_video_stream1_tlast" SIGIS="undef" SIGNAME="vb1_m_axis_video_tlast">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tlast"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="m_axis_video_stream1_tready" SIGIS="undef" SIGNAME="vb1_m_axis_video_tready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tready"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="0" NAME="m_axis_video_stream1_tuser" RIGHT="0" SIGIS="undef" SIGNAME="vb1_m_axis_video_tuser">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tuser"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="m_axis_video_stream1_tvalid" SIGIS="undef" SIGNAME="vb1_m_axis_video_tvalid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tvalid"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane0_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tdata">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tdata"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="s_axis_lnk_rx_lane0_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tready"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane0_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tuser">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tuser"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="s_axis_lnk_rx_lane0_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tvalid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tvalid"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="O" LEFT="7" NAME="m_axis_phy_rx_sb_control_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_control_axi4s_tdata">
       <CONNECTIONS>
         <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_control_axi4s_tdata"/>
@@ -256,79 +246,24 @@
         <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_control_axi4s_tvalid"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="31" NAME="s_axis_phy_rx_sb_status_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_status_axi4s_tdata">
+    <PORT DIR="O" LEFT="31" NAME="aud_axi_egress_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tdata">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_status_axi4s_tdata"/>
+        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tdata"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="s_axis_phy_rx_sb_status_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_status_axi4s_tready">
+    <PORT DIR="O" LEFT="7" NAME="aud_axi_egress_tid" RIGHT="0" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tid">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_status_axi4s_tready"/>
+        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tid"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="s_axis_phy_rx_sb_status_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_sb_status_axi4s_tvalid">
+    <PORT DIR="I" NAME="aud_axi_egress_tready" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tready">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_sb_status_axi4s_tvalid"/>
+        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tready"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane3_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tdata">
+    <PORT DIR="O" NAME="aud_axi_egress_tvalid" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tvalid">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tdata"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="s_axis_lnk_rx_lane3_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tready"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane3_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tuser">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tuser"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="s_axis_lnk_rx_lane3_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tvalid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tvalid"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane2_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tdata">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tdata"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="s_axis_lnk_rx_lane2_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tready"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane2_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tuser">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tuser"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="s_axis_lnk_rx_lane2_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tvalid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tvalid"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane1_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tdata">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tdata"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="s_axis_lnk_rx_lane1_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tready"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane1_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tuser">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tuser"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="s_axis_lnk_rx_lane1_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane1_tvalid">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane1_tvalid"/>
+        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tvalid"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" NAME="edid_iic_scl_i" SIGIS="undef" SIGNAME="dp_i2c_scl_in">
@@ -361,6 +296,46 @@
         <CONNECTION INSTANCE="dp" PORT="i2c_sda_enable_n"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane0_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tdata">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tdata"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s_axis_lnk_rx_lane0_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane0_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tuser">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tuser"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="s_axis_lnk_rx_lane0_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane0_tvalid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane0_tvalid"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane3_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tdata">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tdata"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s_axis_lnk_rx_lane3_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane3_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tuser">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tuser"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="s_axis_lnk_rx_lane3_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane3_tvalid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane3_tvalid"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="I" NAME="ext_iic_scl_i" SIGIS="undef" SIGNAME="iic_scl_i">
       <CONNECTIONS>
         <CONNECTION INSTANCE="iic" PORT="scl_i"/>
@@ -391,24 +366,49 @@
         <CONNECTION INSTANCE="iic" PORT="sda_t"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="31" NAME="aud_axi_egress_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tdata">
+    <PORT DIR="I" LEFT="31" NAME="s_axis_lnk_rx_lane2_tdata" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tdata">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tdata"/>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tdata"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="7" NAME="aud_axi_egress_tid" RIGHT="0" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tid">
+    <PORT DIR="O" NAME="s_axis_lnk_rx_lane2_tready" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tready">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tid"/>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tready"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="aud_axi_egress_tready" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tready">
+    <PORT DIR="I" LEFT="11" NAME="s_axis_lnk_rx_lane2_tuser" RIGHT="0" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tuser">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tready"/>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tuser"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="aud_axi_egress_tvalid" SIGIS="undef" SIGNAME="dp_m_axis_audio_egress_tvalid">
+    <PORT DIR="I" NAME="s_axis_lnk_rx_lane2_tvalid" SIGIS="undef" SIGNAME="dp_lnk_rx_axi4s_lane2_tvalid">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="dp" PORT="m_axis_audio_egress_tvalid"/>
+        <CONNECTION INSTANCE="dp" PORT="lnk_rx_axi4s_lane2_tvalid"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="119" NAME="m_axis_video_stream1_tdata" RIGHT="0" SIGIS="undef" SIGNAME="vb1_m_axis_video_tdata">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tdata"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="m_axis_video_stream1_tlast" SIGIS="undef" SIGNAME="vb1_m_axis_video_tlast">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tlast"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="m_axis_video_stream1_tready" SIGIS="undef" SIGNAME="vb1_m_axis_video_tready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="m_axis_video_stream1_tuser" RIGHT="0" SIGIS="undef" SIGNAME="vb1_m_axis_video_tuser">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tuser"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="m_axis_video_stream1_tvalid" SIGIS="undef" SIGNAME="vb1_m_axis_video_tvalid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="vb1" PORT="m_axis_video_tvalid"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -641,8 +641,8 @@
       <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
       <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
       <PARAMETER NAME="FREQ_HZ" VALUE="300000000"/>
-      <PARAMETER NAME="PHASE" VALUE="0.0"/>
-      <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_clk_wiz_0_0_clk_out1"/>
+      <PARAMETER NAME="PHASE" VALUE="0.00"/>
+      <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk"/>
       <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
       <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
       <PORTMAPS>
@@ -1749,8 +1749,8 @@
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="300000000"/>
-          <PARAMETER NAME="PHASE" VALUE="0.0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_clk_wiz_0_0_clk_out1"/>
+          <PARAMETER NAME="PHASE" VALUE="0.00"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="dpss_zcu102_rx_ddr4_0_0_c0_ddr4_ui_clk"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
           <PORTMAPS>

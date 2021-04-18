@@ -115,6 +115,8 @@ proc step_failed { step } {
 }
 
 set_msg_config  -id {Constraints 18-4427}  -new_severity {WARNING} 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
 
 OPTRACE "Implementation" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }

@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Wed Apr  7 18:56:04 2021
-# Process ID: 89680
+# Start of session at: Sun Apr 18 14:57:05 2021
+# Process ID: 28468
 # Current directory: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1
 # Command line: vivado.exe -log dpss_zcu102_rx_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dpss_zcu102_rx_wrapper.tcl -notrace
 # Log file: C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper.vdi
@@ -13,20 +13,24 @@ source dpss_zcu102_rx_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
-add_files: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1032.656 ; gain = 0.000
+add_files: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1035.777 ; gain = 0.000
 Command: link_design -top dpss_zcu102_rx_wrapper -part xczu9eg-ffvb1156-2-e
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0.dcp' for cell 'dpss_zcu102_rx_i/axi_iic_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0.dcp' for cell 'dpss_zcu102_rx_i/axi_timer_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.dcp' for cell 'dpss_zcu102_rx_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.dcp' for cell 'dpss_zcu102_rx_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/dpss_zcu102_rx_ddr4_0_0.dcp' for cell 'dpss_zcu102_rx_i/ddr4_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_proc_sys_reset_0_0/dpss_zcu102_rx_proc_sys_reset_0_0.dcp' for cell 'dpss_zcu102_rx_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ddr4_0_300M_0/dpss_zcu102_rx_rst_ddr4_0_300M_0.dcp' for cell 'dpss_zcu102_rx_i/rst_ddr4_0_300M'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ps8_0_99M_0/dpss_zcu102_rx_rst_ps8_0_99M_0.dcp' for cell 'dpss_zcu102_rx_i/rst_ps8_0_99M'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_1_0/dpss_zcu102_rx_system_ila_1_0.dcp' for cell 'dpss_zcu102_rx_i/system_ila_1'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_2_0/dpss_zcu102_rx_system_ila_2_0.dcp' for cell 'dpss_zcu102_rx_i/system_ila_2'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_vector_logic_1_1/dpss_zcu102_rx_util_vector_logic_1_1.dcp' for cell 'dpss_zcu102_rx_i/util_vector_logic_1'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0.dcp' for cell 'dpss_zcu102_rx_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_xbar_1/dpss_zcu102_rx_xbar_1.dcp' for cell 'dpss_zcu102_rx_i/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_cc_0/dpss_zcu102_rx_auto_cc_0.dcp' for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0.dcp' for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0.dcp' for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_1'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_reduced_logic_0_0/dpss_zcu102_rx_util_reduced_logic_0_0.dcp' for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_reduced_logic_0'
@@ -58,11 +62,14 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_5/bd_6311_notof_0_0.dcp' for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/notof_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_4/bd_6311_vb1_0.dcp' for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_3/bd_6311_xbar_0.dcp' for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/xbar'
-Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1700.426 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 3100 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1807.750 ; gain = 1.969
+INFO: [Netlist 29-17] Analyzing 3551 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2020.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. dpss_zcu102_rx_i/clk_wiz_0/inst/clkin1_ibuf 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'dpss_zcu102_rx_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
 WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_2/IOBUF_IO_I[0]' is not directly connected to top level port. Synthesis is ignored for DRIVE but preserved for implementation.
 WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_2/IOBUF_IO_I[0]' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
 WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_2/IOBUF_IO_I[0]' is not directly connected to top level port. Synthesis is ignored for SLEW but preserved for implementation.
@@ -81,20 +88,13 @@ WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'dp
 WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_3/IOBUF_IO_T[0]' is not directly connected to top level port. Synthesis is ignored for DRIVE but preserved for implementation.
 WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_3/IOBUF_IO_T[0]' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
 WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'dpss_zcu102_rx_i/i2c_mux/util_ds_buf_3/IOBUF_IO_T[0]' is not directly connected to top level port. Synthesis is ignored for SLEW but preserved for implementation.
+INFO: [Chipscope 16-324] Core: dpss_zcu102_rx_i/ddr4_0 UUID: db07bcf0-91e1-50cb-853e-08d9008cbff7 
 INFO: [Chipscope 16-324] Core: dpss_zcu102_rx_i/system_ila_1/inst/ila_lib UUID: 426cd308-90b7-5355-9f67-66e7c62abd74 
 INFO: [Chipscope 16-324] Core: dpss_zcu102_rx_i/system_ila_2/inst/ila_lib UUID: 83f09af5-7823-512f-b9b5-2126df1b6851 
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/axi_iic_0/U0'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_iic_0_0/dpss_zcu102_rx_axi_iic_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/axi_iic_0/U0'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0.xdc] for cell 'dpss_zcu102_rx_i/axi_timer_0/U0'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_axi_timer_0_0/dpss_zcu102_rx_axi_timer_0_0.xdc] for cell 'dpss_zcu102_rx_i/axi_timer_0/U0'
-Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
-Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
-Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.xdc:57]
-INFO: [Timing 38-2] Deriving generated clocks [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.xdc:57]
-get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2331.406 ; gain = 356.352
-WARNING: [Vivado 12-2489] -input_jitter contains time 0.033330 which will be rounded to 0.033 to ensure it is an integer multiple of 1 picosecond [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.xdc:57]
-Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_0/dpss_zcu102_rx_clk_wiz_0_0.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_0/U0'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_0_0/dpss_zcu102_rx_util_ds_buf_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_0/U0'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_util_ds_buf_1_0/dpss_zcu102_rx_util_ds_buf_1_0_board.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/util_ds_buf_1/U0'
@@ -134,9 +134,37 @@ Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v20
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_2_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'dpss_zcu102_rx_i/system_ila_2/inst/ila_lib/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0.xdc] for cell 'dpss_zcu102_rx_i/zynq_ultra_ps_e_0/inst'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_zynq_ultra_ps_e_0_0/dpss_zcu102_rx_zynq_ultra_ps_e_0_0.xdc] for cell 'dpss_zcu102_rx_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_0/bd_47c8_microblaze_I_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/microblaze_I/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_0/bd_47c8_microblaze_I_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/microblaze_I/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_1/bd_47c8_rst_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_1/bd_47c8_rst_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_1/bd_47c8_rst_0_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_1/bd_47c8_rst_0_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_2/bd_47c8_ilmb_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/ilmb/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_2/bd_47c8_ilmb_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/ilmb/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_3/bd_47c8_dlmb_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/dlmb/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_3/bd_47c8_dlmb_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/dlmb/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_10/bd_47c8_iomodule_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/iomodule_0/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/bd_0/ip/ip_10/bd_47c8_iomodule_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/iomodule_0/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/ip_0/dpss_zcu102_rx_ddr4_0_0_microblaze_mcs_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/ip_0/dpss_zcu102_rx_ddr4_0_0_microblaze_mcs_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/par/dpss_zcu102_rx_ddr4_0_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/par/dpss_zcu102_rx_ddr4_0_0.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ddr4_0_300M_0/dpss_zcu102_rx_rst_ddr4_0_300M_0_board.xdc] for cell 'dpss_zcu102_rx_i/rst_ddr4_0_300M/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ddr4_0_300M_0/dpss_zcu102_rx_rst_ddr4_0_300M_0_board.xdc] for cell 'dpss_zcu102_rx_i/rst_ddr4_0_300M/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ddr4_0_300M_0/dpss_zcu102_rx_rst_ddr4_0_300M_0.xdc] for cell 'dpss_zcu102_rx_i/rst_ddr4_0_300M/U0'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_rst_ddr4_0_300M_0/dpss_zcu102_rx_rst_ddr4_0_300M_0.xdc] for cell 'dpss_zcu102_rx_i/rst_ddr4_0_300M/U0'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1_board.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1_board.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xdc:57]
+WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xdc:57]
+get_clocks: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3074.176 ; gain = 460.801
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.033330 which will be rounded to 0.033 to ensure it is an integer multiple of 1 picosecond [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xdc:57]
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_clk_wiz_0_1/dpss_zcu102_rx_clk_wiz_0_1.xdc] for cell 'dpss_zcu102_rx_i/clk_wiz_0/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/dp/inst'
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0_clocks.xdc:7]
-INFO: [Timing 38-2] Deriving generated clocks [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0_clocks.xdc:7]
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_0/bd_6311_dp_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/dp/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_4/bd_6311_vb1_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_v_dp_rxss1_0_0/bd_0/ip/ip_4/bd_6311_vb1_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst'
@@ -152,6 +180,8 @@ Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v20
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/video_frame_crc_xdc.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0/inst'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_video_frame_crc_0_0/dpss_zcu102_rx_video_frame_crc_0_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0/inst'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/dpss_zcu102_rx_ddr4_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/dpss_zcu102_rx_ddr4_0_0_board.xdc] for cell 'dpss_zcu102_rx_i/ddr4_0/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_0/dpss_zcu102_rx_auto_ds_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_1/dpss_zcu102_rx_auto_ds_1_clocks.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_ds/inst'
@@ -164,6 +194,8 @@ Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v20
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_4/dpss_zcu102_rx_auto_ds_4_clocks.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds/inst'
 Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_5/dpss_zcu102_rx_auto_ds_5_clocks.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds/inst'
 Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_ds_5/dpss_zcu102_rx_auto_ds_5_clocks.xdc] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds/inst'
+Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_cc_0/dpss_zcu102_rx_auto_cc_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst'
+Finished Parsing XDC File [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_cc_0/dpss_zcu102_rx_auto_cc_0_clocks.xdc] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst'
 Parsing XDC File [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/imports/top_zcu102.xdc]
 WARNING: [Constraints 18-4427] You are overriding a physical property set by a constraint that originated in a read only source. Your changes will not be saved with a project save. If you wish to make this change permanent, it is recommended you use an unmanaged Tcl file. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/ip_0/synth/dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper.xdc:68]
 WARNING: [Constraints 18-4427] You are overriding a physical property set by a constraint that originated in a read only source. Your changes will not be saved with a project save. If you wish to make this change permanent, it is recommended you use an unmanaged Tcl file. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/ip_0/synth/dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper.xdc:105]
@@ -548,6 +580,26 @@ Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array
 Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/xpm_array_single_txbufstatus_b02_inst'
 Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0/inst/xpm_array_pixel_mode_inst'
 Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/video_frame_crc_0/inst/xpm_array_pixel_mode_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
@@ -670,6 +722,52 @@ WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same
  2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
  [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
 Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.cdc_wr_rst_busy_ic_3.xpm_cdc_single_inst3'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.cdc_wr_rst_busy_ic_3.xpm_cdc_single_inst3'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.cdc_wr_rst_busy_ic_1.xpm_cdc_single_inst1'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.cdc_wr_rst_busy_ic_1.xpm_cdc_single_inst1'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.cdc_wr_rst_busy_ic_2.xpm_cdc_single_inst2'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.cdc_wr_rst_busy_ic_2.xpm_cdc_single_inst2'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/axi_interconnect_0/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
 Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/xpm_array_single_qpll1lock_b0_inst'
 INFO: [Vivado 12-3272] Current instance is the top level cell 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/xpm_array_single_qpll1lock_b0_inst' of design 'design_1' [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
 WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
@@ -869,22 +967,30 @@ Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm
 Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/dp/inst/core_top_inst/dport_link_inst/displayport_v8_1_2_rx_link_inst/displayport_v8_1_2_rx_main_inst/gen_framing_lane0[0].displayport_v8_1_2_rx_framing0_inst/displayport_v8_1_2_rx_sec_link_byte0_fifo_inst/fifo_gen_inst'
 Finished Sourcing Tcl File [C:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/dp/inst/core_top_inst/dport_link_inst/displayport_v8_1_2_rx_link_inst/displayport_v8_1_2_rx_main_inst/gen_framing_lane0[0].displayport_v8_1_2_rx_framing0_inst/displayport_v8_1_2_rx_sec_link_byte0_fifo_inst/fifo_gen_inst'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 2426.586 ; gain = 0.000
+Generating merged BMM file for the design top 'dpss_zcu102_rx_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/sw/calibration_0/Debug/calibration_ddr.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 3141.523 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 767 instances were transformed.
+  A total of 960 instances were transformed.
   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 164 instances
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
   IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
   IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
   IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 2 instances
+  IOBUFDS => IOBUFDS (DIFFINBUF, IBUFCTRL, INV, OBUFT(x2)): 2 instances
+  IOBUFE3 => IOBUFE3 (IBUFCTRL, INBUF, OBUFT_DCIEN): 18 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 63 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUF(x2)): 1 instance 
   RAM16X1S => RAM32X1S (RAMS32): 6 instances
-  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 69 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 68 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 107 instances
   RAM64M8 => RAM64M8 (RAMD64E(x8)): 482 instances
   RAM64X1D => RAM64X1D (RAMD64E(x2)): 40 instances
   RAM64X1S => RAM64X1S (RAMS64E): 1 instance 
 
-61 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+66 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 2426.586 ; gain = 1393.930
+link_design: Time (s): cpu = 00:01:23 ; elapsed = 00:01:23 . Memory (MB): peak = 3141.523 ; gain = 2105.746
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
@@ -895,76 +1001,83 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2426.586 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3141.523 ; gain = 0.000
 
 Starting Cache Timing Information Task
 WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
-Ending Cache Timing Information Task | Checksum: fe6045dd
+Ending Cache Timing Information Task | Checksum: 204fc4653
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 2426.586 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3141.523 ; gain = 0.000
 
 Starting Logic Optimization Task
 
-Phase 1 Generate And Synthesize Debug Cores
+Phase 1 Generate And Synthesize MIG Cores
+INFO: [IP_Flow 19-5647] Added synthesis output to IP cache for IP dpss_zcu102_rx_ddr4_0_0_phy, cache-ID = e529b490a7d88929
+get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 3366.246 ; gain = 0.000
+read_xdc: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 3435.914 ; gain = 69.668
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 3435.914 ; gain = 0.000
+Phase 1 Generate And Synthesize MIG Cores | Checksum: 21e63eebd
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:34 . Memory (MB): peak = 3435.914 ; gain = 119.059
+
+Phase 2 Generate And Synthesize Debug Cores
 INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
 INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 2611.824 ; gain = 0.000
-Phase 1 Generate And Synthesize Debug Cores | Checksum: 1b3295cf1
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 3453.867 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 3453.867 ; gain = 0.000
+Phase 2 Generate And Synthesize Debug Cores | Checksum: 2104a5bbf
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:01:27 . Memory (MB): peak = 2611.824 ; gain = 24.852
+Time (s): cpu = 00:00:54 ; elapsed = 00:03:04 . Memory (MB): peak = 3453.867 ; gain = 137.012
 
-Phase 2 Retarget
-INFO: [Opt 31-138] Pushed 69 inverter(s) to 5419 load pin(s).
-INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell dpss_zcu102_rx_i/system_ila_2/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
-INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell dpss_zcu102_rx_i/system_ila_2/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
-INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell dpss_zcu102_rx_i/system_ila_2/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
-INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell dpss_zcu102_rx_i/system_ila_2/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 77 inverter(s) to 6264 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 2 Retarget | Checksum: 1bf9a5cda
+Phase 3 Retarget | Checksum: 19d7b4e88
 
-Time (s): cpu = 00:00:18 ; elapsed = 00:01:34 . Memory (MB): peak = 2611.984 ; gain = 25.012
-INFO: [Opt 31-389] Phase Retarget created 446 cells and removed 876 cells
-INFO: [Opt 31-1021] In phase Retarget, 292 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:01:05 ; elapsed = 00:03:13 . Memory (MB): peak = 3453.867 ; gain = 137.012
+INFO: [Opt 31-389] Phase Retarget created 473 cells and removed 1016 cells
+INFO: [Opt 31-1021] In phase Retarget, 344 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 3 Constant propagation
-INFO: [Opt 31-138] Pushed 6 inverter(s) to 25 load pin(s).
-Phase 3 Constant propagation | Checksum: 1bcd77dd9
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 16 load pin(s).
+Phase 4 Constant propagation | Checksum: 176cada09
 
-Time (s): cpu = 00:00:20 ; elapsed = 00:01:36 . Memory (MB): peak = 2611.984 ; gain = 25.012
-INFO: [Opt 31-389] Phase Constant propagation created 921 cells and removed 3492 cells
-INFO: [Opt 31-1021] In phase Constant propagation, 282 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:01:08 ; elapsed = 00:03:15 . Memory (MB): peak = 3453.867 ; gain = 137.012
+INFO: [Opt 31-389] Phase Constant propagation created 1112 cells and removed 3563 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 329 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 4 Sweep
+Phase 5 Sweep
 INFO: [Opt 31-120] Instance dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/dp/inst/core_top_inst/dport_link_inst/displayport_v8_1_2_rx_link_inst/displayport_v8_1_2_rx_main_inst/sync_cell_fifo_rst_inst (bd_6311_dp_0_xpm_cdc_array_single__parameterized1__79) has been optimized to an empty box cell during sweep but it has constraints that prevent its removal. Empty box cells do not impact the implementation flow but they have no functional relevance.
 Resolution: If this is not expected, please check for DONT_TOUCH properties or timing constraint set on the empty box cell or on nets connected to the cell. If found, remove the relevant DONT_TOUCH property or timing constraint and re-run opt_design.
-Phase 4 Sweep | Checksum: 1fa45e8a5
+Phase 5 Sweep | Checksum: 14c1c87a8
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:01:46 . Memory (MB): peak = 2611.984 ; gain = 25.012
-INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 9212 cells
-INFO: [Opt 31-1021] In phase Sweep, 2358 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:01:21 ; elapsed = 00:03:28 . Memory (MB): peak = 3453.867 ; gain = 137.012
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 10105 cells
+INFO: [Opt 31-1021] In phase Sweep, 3995 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 5 BUFG optimization
+Phase 6 BUFG optimization
 INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
-Phase 5 BUFG optimization | Checksum: 1fa45e8a5
+Phase 6 BUFG optimization | Checksum: 14c1c87a8
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:01:48 . Memory (MB): peak = 2611.984 ; gain = 25.012
+Time (s): cpu = 00:01:24 ; elapsed = 00:03:31 . Memory (MB): peak = 3453.867 ; gain = 137.012
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+INFO: [Opt 31-1021] In phase BUFG optimization, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 6 Shift Register Optimization
+Phase 7 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
-Phase 6 Shift Register Optimization | Checksum: 1fa45e8a5
+Phase 7 Shift Register Optimization | Checksum: 14c1c87a8
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:01:49 . Memory (MB): peak = 2611.984 ; gain = 25.012
+Time (s): cpu = 00:01:25 ; elapsed = 00:03:33 . Memory (MB): peak = 3453.867 ; gain = 137.012
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
-Phase 7 Post Processing Netlist
-Phase 7 Post Processing Netlist | Checksum: 1fa45e8a5
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 18646133d
 
-Time (s): cpu = 00:00:34 ; elapsed = 00:01:50 . Memory (MB): peak = 2611.984 ; gain = 25.012
-INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
-INFO: [Opt 31-1021] In phase Post Processing Netlist, 358 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:01:26 ; elapsed = 00:03:34 . Memory (MB): peak = 3453.867 ; gain = 137.012
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 504 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
 =========================
 
@@ -972,28 +1085,30 @@ Opt_design Change Summary
 -------------------------------------------------------------------------------------------------------------------------
 |  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
 -------------------------------------------------------------------------------------------------------------------------
-|  Retarget                     |             446  |             876  |                                            292  |
-|  Constant propagation         |             921  |            3492  |                                            282  |
-|  Sweep                        |               0  |            9212  |                                           2358  |
-|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Retarget                     |             473  |            1016  |                                            344  |
+|  Constant propagation         |            1112  |            3563  |                                            329  |
+|  Sweep                        |               0  |           10105  |                                           3995  |
+|  BUFG optimization            |               0  |               0  |                                              1  |
 |  Shift Register Optimization  |               0  |               0  |                                              0  |
-|  Post Processing Netlist      |               0  |               0  |                                            358  |
+|  Post Processing Netlist      |               0  |               1  |                                            504  |
 -------------------------------------------------------------------------------------------------------------------------
 
 
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.220 . Memory (MB): peak = 2611.984 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: e8250e00
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.272 . Memory (MB): peak = 3453.867 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 25ee4e98f
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:01:53 . Memory (MB): peak = 2611.984 ; gain = 25.012
+Time (s): cpu = 00:01:30 ; elapsed = 00:03:37 . Memory (MB): peak = 3453.867 ; gain = 137.012
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Power 33-23] Power model is not available for xiphy_riu_or
+INFO: [Power 33-23] Power model is not available for genVref.u_hpio_vref
 INFO: [Pwropt 34-9] Applying IDT optimizations ...
 INFO: [Pwropt 34-10] Applying ODC optimizations ...
-WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
+WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
 Running Vector-less Activity Propagation...
@@ -1002,31 +1117,31 @@ Finished Running Vector-less Activity Propagation
 
 
 Starting PowerOpt Patch Enables Task
-INFO: [Pwropt 34-162] WRITE_MODE attribute of 2 BRAM(s) out of a total of 7 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 6 BRAM(s) out of a total of 33 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 1 WE to EN ports
-Number of BRAM Ports augmented: 6 newly gated: 1 Total Ports: 14
-Ending PowerOpt Patch Enables Task | Checksum: 16f0df5e9
+Number of BRAM Ports augmented: 6 newly gated: 1 Total Ports: 66
+Ending PowerOpt Patch Enables Task | Checksum: 268640600
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.446 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 16f0df5e9
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.614 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 268640600
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:56 . Memory (MB): peak = 4728.211 ; gain = 2116.227
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:53 . Memory (MB): peak = 5141.781 ; gain = 1687.914
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 16f0df5e9
+Ending Final Cleanup Task | Checksum: 268640600
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Ending Netlist Obfuscation Task | Checksum: 13523e30a
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1cd3a3eab
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.812 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.686 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-98 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
+108 Infos, 122 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:02:07 ; elapsed = 00:02:59 . Memory (MB): peak = 4728.211 ; gain = 2301.625
-WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
+opt_design: Time (s): cpu = 00:03:09 ; elapsed = 00:04:45 . Memory (MB): peak = 5141.781 ; gain = 2000.258
+WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
 INFO: [Timing 38-480] Writing timing data to binary archive.
@@ -1034,15 +1149,16 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.184 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.150 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:40 ; elapsed = 00:00:24 . Memory (MB): peak = 4728.211 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file dpss_zcu102_rx_wrapper_drc_opted.rpt -pb dpss_zcu102_rx_wrapper_drc_opted.pb -rpx dpss_zcu102_rx_wrapper_drc_opted.rpx
 Command: report_drc -file dpss_zcu102_rx_wrapper_drc_opted.rpt -pb dpss_zcu102_rx_wrapper_drc_opted.pb -rpx dpss_zcu102_rx_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_drc_opted.rpt.
 report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Chipscope 16-240] Debug cores have already been implemented
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
@@ -1061,29 +1177,29 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: b23bd888
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1902d08ac
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 13aa7a171
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1897d8113
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 1627d43f1
+Phase 1.3 Build Placer Netlist Model | Checksum: 27e4ca052
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:28 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:39 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 1627d43f1
+Phase 1.4 Constrain Clocks/Macros | Checksum: 27e4ca052
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:28 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 1627d43f1
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:39 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 27e4ca052
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:28 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:40 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2 Global Placement
 
@@ -1092,42 +1208,42 @@ Phase 2.1 Floorplanning
 Phase 2.1.1 Partition Driven Placement
 
 Phase 2.1.1.1 PBP: Partition Driven Placement
-Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 1b55172af
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 2168aab01
 
-Time (s): cpu = 00:01:10 ; elapsed = 00:00:49 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:11 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.1.1.2 PBP: Clock Region Placement
-Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 24e91e6a6
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 1e878f009
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:00:50 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:13 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.1.1.3 PBP: Compute Congestion
-Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 24e91e6a6
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 1e878f009
 
-Time (s): cpu = 00:01:13 ; elapsed = 00:00:51 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:14 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.1.1.4 PBP: UpdateTiming
-Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 1f0493934
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 1c100017f
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:54 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:18 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.1.1.5 PBP: Add part constraints
-Phase 2.1.1.5 PBP: Add part constraints | Checksum: 1f0493934
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 1c100017f
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:55 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 2.1.1 Partition Driven Placement | Checksum: 1f0493934
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:19 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 2.1.1 Partition Driven Placement | Checksum: 1c100017f
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:55 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 2.1 Floorplanning | Checksum: 1f0493934
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:19 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 2.1 Floorplanning | Checksum: 1c100017f
 
-Time (s): cpu = 00:01:17 ; elapsed = 00:00:55 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:19 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.2 Global Placement Core
 
 Phase 2.2.1 Physical Synthesis In Placer
-INFO: [Physopt 32-1035] Found 167 LUTNM shape to break, 1794 LUT instances to create LUTNM shape
-INFO: [Physopt 32-1044] Break lutnm for timing: one critical 132, two critical 35, total 167, new lutff created 3
-INFO: [Physopt 32-775] End 1 Pass. Optimized 855 nets or cells. Created 167 new cells, deleted 688 existing cells and moved 0 existing cell
+INFO: [Physopt 32-1035] Found 147 LUTNM shape to break, 3120 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 96, two critical 51, total 147, new lutff created 7
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1445 nets or cells. Created 147 new cells, deleted 1298 existing cells and moved 0 existing cell
 INFO: [Physopt 32-1022] Very high fanout net 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/wrp_inst/Q[0]' has -through timing constraint at pin '' or its immediate connected net. To preserve -through timing constraint its fanout number considered in optimization is changed from 2792 to 329 and it is not considered a very high fanout net anymore. Please consider modifying/removing the '-through' timing constraint on the net segment or hierarchy pin.
 INFO: [Physopt 32-1022] Very high fanout net 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/wrp_inst/Q[1]' has -through timing constraint at pin '' or its immediate connected net. To preserve -through timing constraint its fanout number considered in optimization is changed from 2792 to 329 and it is not considered a very high fanout net anymore. Please consider modifying/removing the '-through' timing constraint on the net segment or hierarchy pin.
 INFO: [Physopt 32-1022] Very high fanout net 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/wrp_inst/Q[2]' has -through timing constraint at pin '' or its immediate connected net. To preserve -through timing constraint its fanout number considered in optimization is changed from 2792 to 329 and it is not considered a very high fanout net anymore. Please consider modifying/removing the '-through' timing constraint on the net segment or hierarchy pin.
@@ -1135,28 +1251,28 @@ INFO: [Physopt 32-1022] Very high fanout net 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp
 INFO: [Physopt 32-1022] Very high fanout net 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/wrp_inst/Q[4]' has -through timing constraint at pin '' or its immediate connected net. To preserve -through timing constraint its fanout number considered in optimization is changed from 2790 to 327 and it is not considered a very high fanout net anymore. Please consider modifying/removing the '-through' timing constraint on the net segment or hierarchy pin.
 INFO: [Physopt 32-1022] Very high fanout net 'dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/wrp_inst/Q[5]' has -through timing constraint at pin '' or its immediate connected net. To preserve -through timing constraint its fanout number considered in optimization is changed from 2791 to 328 and it is not considered a very high fanout net anymore. Please consider modifying/removing the '-through' timing constraint on the net segment or hierarchy pin.
 INFO: [Physopt 32-76] Pass 1. Identified 6 candidate nets for fanout optimization.
-INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[0]. Replicated 12 times.
-INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[1]. Replicated 12 times.
-INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[2]. Replicated 12 times.
-INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[3]. Replicated 12 times.
-INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[5]. Replicated 12 times.
-INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[4]. Replicated 12 times.
-INFO: [Physopt 32-232] Optimized 6 nets. Created 72 new instances.
-INFO: [Physopt 32-775] End 1 Pass. Optimized 6 nets or cells. Created 72 new cells, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.113 . Memory (MB): peak = 4728.211 ; gain = 0.000
+INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[0]. Replicated 11 times.
+INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[1]. Replicated 11 times.
+INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[2]. Replicated 11 times.
+INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[3]. Replicated 11 times.
+INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[5]. Replicated 11 times.
+INFO: [Physopt 32-81] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/Q[4]. Replicated 11 times.
+INFO: [Physopt 32-232] Optimized 6 nets. Created 66 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 6 nets or cells. Created 66 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.129 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-INFO: [Physopt 32-775] End 1 Pass. Optimized 17 nets or cells. Created 31 new cells, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 4728.211 ; gain = 0.000
+INFO: [Physopt 32-775] End 1 Pass. Optimized 23 nets or cells. Created 43 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for HD net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -1165,97 +1281,102 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|  LUT Combining                                    |          167  |            688  |                   855  |           0  |           1  |  00:00:01  |
-|  Very High Fanout                                 |           72  |              0  |                     6  |           0  |           1  |  00:00:04  |
+|  LUT Combining                                    |          147  |           1298  |                  1445  |           0  |           1  |  00:00:02  |
+|  Very High Fanout                                 |           66  |              0  |                     6  |           0  |           1  |  00:00:04  |
 |  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Shift Register                                   |           31  |              0  |                    17  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |           43  |              0  |                    23  |           0  |           1  |  00:00:00  |
 |  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total                                            |          270  |            688  |                   878  |           0  |           8  |  00:00:06  |
+|  Total                                            |          256  |           1298  |                  1474  |           0  |           8  |  00:00:07  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2.1 Physical Synthesis In Placer | Checksum: 2bcf2b94e
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 18600df70
 
-Time (s): cpu = 00:02:57 ; elapsed = 00:02:03 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 2.2 Global Placement Core | Checksum: 1e8c586d3
+Time (s): cpu = 00:04:28 ; elapsed = 00:03:10 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 2.2 Global Placement Core | Checksum: 28960f8fa
 
-Time (s): cpu = 00:03:17 ; elapsed = 00:02:16 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 2 Global Placement | Checksum: 1e8c586d3
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:19 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 28960f8fa
 
-Time (s): cpu = 00:03:17 ; elapsed = 00:02:16 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:20 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 23057ef28
+Phase 3.1 Commit Multi Column Macros | Checksum: 219aab30c
 
-Time (s): cpu = 00:03:23 ; elapsed = 00:02:20 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:04:48 ; elapsed = 00:03:24 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1fe3cccbf
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 17f9d345d
 
-Time (s): cpu = 00:03:30 ; elapsed = 00:02:25 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:04:57 ; elapsed = 00:03:31 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 251cc0b64
+Phase 3.3 Area Swap Optimization | Checksum: 1f2748de3
 
-Time (s): cpu = 00:03:35 ; elapsed = 00:02:30 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:05:00 ; elapsed = 00:03:33 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.4 IO Cut Optimizer
-Phase 3.4 IO Cut Optimizer | Checksum: 23b406f10
+Phase 3.4 IO Cut Optimizer | Checksum: 21515405b
 
-Time (s): cpu = 00:03:35 ; elapsed = 00:02:31 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:05:00 ; elapsed = 00:03:34 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.5 Fast Optimization
-Phase 3.5 Fast Optimization | Checksum: 25c45bec4
+Phase 3.5 Fast Optimization | Checksum: 181dfb333
 
-Time (s): cpu = 00:03:42 ; elapsed = 00:02:35 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:39 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.6 Small Shape DP
 
 Phase 3.6.1 Small Shape Clustering
-Phase 3.6.1 Small Shape Clustering | Checksum: 219a08091
+Phase 3.6.1 Small Shape Clustering | Checksum: 1e9993fbc
 
-Time (s): cpu = 00:03:51 ; elapsed = 00:02:43 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:05:22 ; elapsed = 00:03:50 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.6.2 Flow Legalize Slice Clusters
-Phase 3.6.2 Flow Legalize Slice Clusters | Checksum: 1f92318fa
+Phase 3.6.2 Flow Legalize Slice Clusters | Checksum: 19e9ac436
 
-Time (s): cpu = 00:03:53 ; elapsed = 00:02:45 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:05:24 ; elapsed = 00:03:52 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.6.3 Slice Area Swap
-Phase 3.6.3 Slice Area Swap | Checksum: 18ba66f61
+Phase 3.6.3 Slice Area Swap | Checksum: 1c371bc00
 
-Time (s): cpu = 00:04:01 ; elapsed = 00:02:51 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 3.6 Small Shape DP | Checksum: 1e6a534d3
+Time (s): cpu = 00:05:29 ; elapsed = 00:03:57 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 3.6 Small Shape DP | Checksum: 218d826d3
 
-Time (s): cpu = 00:04:20 ; elapsed = 00:03:03 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:05:57 ; elapsed = 00:04:13 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 254bb3259
+Phase 3.7 Re-assign LUT pins | Checksum: 17aa50dc7
 
-Time (s): cpu = 00:04:24 ; elapsed = 00:03:08 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:02 ; elapsed = 00:04:20 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 26276c8e7
+Phase 3.8 Pipeline Register Optimization | Checksum: 173e74abb
 
-Time (s): cpu = 00:04:25 ; elapsed = 00:03:09 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 26276c8e7
+Time (s): cpu = 00:06:04 ; elapsed = 00:04:22 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
-Time (s): cpu = 00:04:26 ; elapsed = 00:03:10 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 26220907b
+
+Time (s): cpu = 00:06:45 ; elapsed = 00:04:46 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 26220907b
+
+Time (s): cpu = 00:06:46 ; elapsed = 00:04:46 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
 Phase 4.1 Post Commit Optimization
-WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
+WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 13723ee61
+Post Placement Optimization Initialization | Checksum: 2d77ce11c
 
 Phase 4.1.1.1 BUFG Insertion
 
@@ -1263,91 +1384,91 @@ Starting Physical Synthesis Task
 
 Phase 1 Physical Synthesis Initialization
 INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
-INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.120 | TNS=0.000 |
-Phase 1 Physical Synthesis Initialization | Checksum: 127545cd9
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.006 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 22704a424
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/rst_ps8_0_99M/U0/peripheral_reset[0], inserted BUFG to drive 3101 loads.
 INFO: [Place 46-45] Replicated bufg driver dpss_zcu102_rx_i/rst_ps8_0_99M/U0/PR_OUT_DFF[0].FDRE_PER_replica
 INFO: [Place 46-32] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/vb1/inst/gen_disable_dsc_bridge_sub.dp_videoaxi4s_bridge_v1_0_1_sub_inst/dp_videoaxi4s_bridge_v1_0_1_axis_inst/fifo_gen_inst/xpm_fifo_base_inst/rdp_inst/E[0], BUFG insertion was skipped because the netlist could not be updated.
 INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/dp_rx_hier_0/v_dp_rxss1_0/inst/dp/inst/core_top_inst/dport_link_inst/displayport_v8_1_2_rx_link_inst/displayport_v8_1_2_rx_reset_inst/i_apb_reset_sr[3], inserted BUFG to drive 1966 loads.
-INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/rst_ps8_0_99M/U0/peripheral_aresetn[0], inserted BUFG to drive 1585 loads.
+INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/rst_ps8_0_99M/U0/peripheral_aresetn[0], inserted BUFG to drive 1587 loads.
 INFO: [Place 46-45] Replicated bufg driver dpss_zcu102_rx_i/rst_ps8_0_99M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N_replica
 INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/rst_ps8_0_99M/U0/interconnect_aresetn[0], inserted BUFG to drive 1548 loads.
 INFO: [Place 46-45] Replicated bufg driver dpss_zcu102_rx_i/rst_ps8_0_99M/U0/ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N_replica
-INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/ps8_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/aresetn_d, inserted BUFG to drive 1096 loads.
+INFO: [Place 46-35] Processed net dpss_zcu102_rx_i/ps8_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/aresetn_d, inserted BUFG to drive 1187 loads.
 INFO: [Place 46-45] Replicated bufg driver dpss_zcu102_rx_i/ps8_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/aresetn_d_reg_replica
 INFO: [Place 46-56] BUFG insertion identified 6 candidate nets. Inserted BUFG: 5, Replicated BUFG Driver: 4, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 1.
-Ending Physical Synthesis Task | Checksum: 167e64c2c
+Ending Physical Synthesis Task | Checksum: 241bdf384
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 4.1.1.1 BUFG Insertion | Checksum: 1382c6ac1
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 2076fac4a
 
-Time (s): cpu = 00:05:05 ; elapsed = 00:03:37 . Memory (MB): peak = 4728.211 ; gain = 0.000
-INFO: [Place 30-746] Post Placement Timing Summary WNS=0.501. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 983707a4
+Time (s): cpu = 00:07:44 ; elapsed = 00:05:26 . Memory (MB): peak = 5141.781 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.168. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1ffa44492
 
-Time (s): cpu = 00:06:11 ; elapsed = 00:04:47 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 983707a4
+Time (s): cpu = 00:08:40 ; elapsed = 00:06:25 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1ffa44492
 
-Time (s): cpu = 00:06:11 ; elapsed = 00:04:47 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:08:40 ; elapsed = 00:06:25 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 983707a4
+Phase 4.2 Post Placement Cleanup | Checksum: 1ffa44492
 
-Time (s): cpu = 00:06:13 ; elapsed = 00:04:49 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.655 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:08:43 ; elapsed = 00:06:27 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.710 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 181d820e7
+Phase 4.3 Placer Reporting | Checksum: 2893876be
 
-Time (s): cpu = 00:06:22 ; elapsed = 00:04:57 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:08:51 ; elapsed = 00:06:36 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 4.4 Final Placement Cleanup | Checksum: 1bd12d1a5
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 210cdc500
 
-Time (s): cpu = 00:06:23 ; elapsed = 00:04:58 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1bd12d1a5
+Time (s): cpu = 00:08:53 ; elapsed = 00:06:37 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 210cdc500
 
-Time (s): cpu = 00:06:23 ; elapsed = 00:04:59 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Ending Placer Task | Checksum: 13fae4804
+Time (s): cpu = 00:08:53 ; elapsed = 00:06:38 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Ending Placer Task | Checksum: 19f4a4d59
 
-Time (s): cpu = 00:06:23 ; elapsed = 00:04:59 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:08:53 ; elapsed = 00:06:38 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-159 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+169 Infos, 126 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:06:28 ; elapsed = 00:05:02 . Memory (MB): peak = 4728.211 ; gain = 0.000
+place_design: Time (s): cpu = 00:09:02 ; elapsed = 00:06:43 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:04 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 4728.211 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:39 ; elapsed = 00:00:21 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_io -file dpss_zcu102_rx_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 4728.211 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file dpss_zcu102_rx_wrapper_utilization_placed.rpt -pb dpss_zcu102_rx_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file dpss_zcu102_rx_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.312 . Memory (MB): peak = 4728.211 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.350 . Memory (MB): peak = 5141.781 ; gain = 0.000
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
 INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
 INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
 INFO: [Common 17-83] Releasing license: Implementation
-168 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+178 Infos, 126 Warnings, 0 Critical Warnings and 0 Errors encountered.
 phys_opt_design completed successfully
-phys_opt_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:16 . Memory (MB): peak = 4728.211 ; gain = 0.000
+phys_opt_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:26 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:04 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_physopt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 4728.211 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:37 ; elapsed = 00:00:19 . Memory (MB): peak = 5141.781 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
@@ -1362,165 +1483,150 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 5ff088a ConstDB: 0 ShapeSum: 500e2637 RouteDB: e9a11943
+Checksum: PlaceDB: a49c805d ConstDB: 0 ShapeSum: 71199ad0 RouteDB: 8994322c
 
 Phase 1 Build RT Design
-Nodegraph reading from file.  Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.865 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 1 Build RT Design | Checksum: 11992b35a
+Nodegraph reading from file.  Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.955 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 1 Build RT Design | Checksum: 17ea3df78
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:00:35 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Post Restoration Checksum: NetGraph: 3b98dc NumContArr: 830b5981 Constraints: 1ec8e7a3 Timing: 0
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:47 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 6fd0df90 NumContArr: 3f896efe Constraints: d955d4d6 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: a20fda00
+Phase 2.1 Create Timer | Checksum: 188b02364
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:36 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:49 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: a20fda00
+Phase 2.2 Fix Topology Constraints | Checksum: 188b02364
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:37 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:49 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: a20fda00
+Phase 2.3 Pre Route Cleanup | Checksum: 188b02364
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:37 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:49 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.4 Global Clock Net Routing
  Number of Nodes with overlaps = 0
-Phase 2.4 Global Clock Net Routing | Checksum: dc8d8c5b
+Phase 2.4 Global Clock Net Routing | Checksum: 186534aeb
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:56 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 2.5 Update Timing
-Phase 2.5 Update Timing | Checksum: d6d564f9
+Phase 2.5 Update Timing | Checksum: 2fcbec318
 
-Time (s): cpu = 00:01:28 ; elapsed = 00:01:06 . Memory (MB): peak = 4728.211 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.552  | TNS=0.000  | WHS=-0.381 | THS=-72.259|
+Time (s): cpu = 00:02:00 ; elapsed = 00:01:30 . Memory (MB): peak = 5141.781 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.273  | TNS=0.000  | WHS=-0.492 | THS=-67.412|
 
 
 Phase 2.6 Update Timing for Bus Skew
 
 Phase 2.6.1 Update Timing
-Phase 2.6.1 Update Timing | Checksum: 15ae082d5
+Phase 2.6.1 Update Timing | Checksum: 2a94cf443
 
-Time (s): cpu = 00:02:17 ; elapsed = 00:01:34 . Memory (MB): peak = 4728.211 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.552  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:03:08 ; elapsed = 00:02:10 . Memory (MB): peak = 5141.781 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.273  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 2.6 Update Timing for Bus Skew | Checksum: d47d40f1
+Phase 2.6 Update Timing for Bus Skew | Checksum: 2da582cde
 
-Time (s): cpu = 00:02:18 ; elapsed = 00:01:35 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 2 Router Initialization | Checksum: 157e6720a
+Time (s): cpu = 00:03:08 ; elapsed = 00:02:10 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 2d19f02e0
 
-Time (s): cpu = 00:02:18 ; elapsed = 00:01:35 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:03:09 ; elapsed = 00:02:10 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.00191566 %
-  Global Horizontal Routing Utilization  = 0.0012016 %
+  Global Vertical Routing Utilization    = 0.00155269 %
+  Global Horizontal Routing Utilization  = 0.00180241 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
-  Number of Failed Nets               = 61314
+  Number of Failed Nets               = 88502
     (Failed Nets is the sum of unrouted and partially routed nets)
-  Number of Unrouted Nets             = 47401
-  Number of Partially Routed Nets     = 13913
+  Number of Unrouted Nets             = 71293
+  Number of Partially Routed Nets     = 17209
   Number of Node Overlaps             = 0
 
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 135eedd46
+Phase 3 Initial Routing | Checksum: 114c71d70
 
-Time (s): cpu = 00:02:41 ; elapsed = 00:01:50 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:03:40 ; elapsed = 00:02:30 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 15650
- Number of Nodes with overlaps = 1257
- Number of Nodes with overlaps = 215
- Number of Nodes with overlaps = 36
- Number of Nodes with overlaps = 12
- Number of Nodes with overlaps = 4
- Number of Nodes with overlaps = 1
+INFO: [Route 35-443] CLB routing congestion detected. Several CLBs have high routing utilization, which can impact timing closure. Congested CLBs and Nets are dumped in: iter_3_CongestedCLBsAndNets.txt
+ Number of Nodes with overlaps = 18726
+ Number of Nodes with overlaps = 1385
+ Number of Nodes with overlaps = 131
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 3
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.323  | TNS=0.000  | WHS=-0.026 | THS=-0.105 |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.090  | TNS=0.000  | WHS=-0.022 | THS=-0.139 |
 
-Phase 4.1 Global Iteration 0 | Checksum: 1cd2f584c
+Phase 4.1 Global Iteration 0 | Checksum: 180d4dd6c
 
-Time (s): cpu = 00:04:38 ; elapsed = 00:03:11 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:00 ; elapsed = 00:03:59 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 4.2 Global Iteration 1
  Number of Nodes with overlaps = 3
- Number of Nodes with overlaps = 7
- Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.323  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.090  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 19207ea5c
+Phase 4.2 Global Iteration 1 | Checksum: 29989ea73
 
-Time (s): cpu = 00:04:53 ; elapsed = 00:03:22 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:14 ; elapsed = 00:04:09 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 29989ea73
 
-Phase 4.3 Global Iteration 2
- Number of Nodes with overlaps = 700
- Number of Nodes with overlaps = 102
- Number of Nodes with overlaps = 25
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.323  | TNS=0.000  | WHS=N/A    | THS=N/A    |
-
-Phase 4.3 Global Iteration 2 | Checksum: 14b3e03f6
-
-Time (s): cpu = 00:05:07 ; elapsed = 00:03:35 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 14b3e03f6
-
-Time (s): cpu = 00:05:07 ; elapsed = 00:03:35 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:14 ; elapsed = 00:04:09 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 
 Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 1836af299
+Phase 5.1.1 Update Timing | Checksum: 2291f5f67
 
-Time (s): cpu = 00:05:23 ; elapsed = 00:03:45 . Memory (MB): peak = 4728.211 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.323  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+Time (s): cpu = 00:06:38 ; elapsed = 00:04:23 . Memory (MB): peak = 5141.781 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.090  | TNS=0.000  | WHS=0.010  | THS=0.000  |
 
-Phase 5.1 Delay CleanUp | Checksum: 1901ee43a
+Phase 5.1 Delay CleanUp | Checksum: 2a40c7a14
 
-Time (s): cpu = 00:05:24 ; elapsed = 00:03:45 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:38 ; elapsed = 00:04:24 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 1901ee43a
+Phase 5.2 Clock Skew Optimization | Checksum: 2a40c7a14
 
-Time (s): cpu = 00:05:24 ; elapsed = 00:03:45 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 1901ee43a
+Time (s): cpu = 00:06:39 ; elapsed = 00:04:24 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 2a40c7a14
 
-Time (s): cpu = 00:05:24 ; elapsed = 00:03:46 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:39 ; elapsed = 00:04:24 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 190df4e49
+Phase 6.1.1 Update Timing | Checksum: 2ba2f33e7
 
-Time (s): cpu = 00:05:37 ; elapsed = 00:03:54 . Memory (MB): peak = 4728.211 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.323  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+Time (s): cpu = 00:06:57 ; elapsed = 00:04:36 . Memory (MB): peak = 5141.781 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.090  | TNS=0.000  | WHS=0.010  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 14e327732
+Phase 6.1 Hold Fix Iter | Checksum: 22c9aebc1
 
-Time (s): cpu = 00:05:37 ; elapsed = 00:03:54 . Memory (MB): peak = 4728.211 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 14e327732
+Time (s): cpu = 00:06:58 ; elapsed = 00:04:36 . Memory (MB): peak = 5141.781 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 22c9aebc1
 
-Time (s): cpu = 00:05:38 ; elapsed = 00:03:54 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:58 ; elapsed = 00:04:36 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 3.32882 %
-  Global Horizontal Routing Utilization  = 3.29177 %
+  Global Vertical Routing Utilization    = 4.58672 %
+  Global Horizontal Routing Utilization  = 4.47047 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -1530,65 +1636,65 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 16a022138
+Phase 7 Route finalize | Checksum: 264bbc5a9
 
-Time (s): cpu = 00:05:39 ; elapsed = 00:03:55 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:59 ; elapsed = 00:04:37 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 16a022138
+Phase 8 Verifying routed nets | Checksum: 264bbc5a9
 
-Time (s): cpu = 00:05:39 ; elapsed = 00:03:55 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:06:59 ; elapsed = 00:04:37 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 16a022138
+Phase 9 Depositing Routes | Checksum: 264bbc5a9
 
-Time (s): cpu = 00:05:44 ; elapsed = 00:04:02 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:07:07 ; elapsed = 00:04:46 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=0.323  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.090  | TNS=0.000  | WHS=0.010  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 16a022138
+Phase 10 Post Router Timing | Checksum: 264bbc5a9
 
-Time (s): cpu = 00:05:45 ; elapsed = 00:04:02 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:07:07 ; elapsed = 00:04:47 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:05:45 ; elapsed = 00:04:02 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Time (s): cpu = 00:07:07 ; elapsed = 00:04:47 . Memory (MB): peak = 5141.781 ; gain = 0.000
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-189 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+199 Infos, 126 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:05:57 ; elapsed = 00:04:09 . Memory (MB): peak = 4728.211 ; gain = 0.000
+route_design: Time (s): cpu = 00:07:24 ; elapsed = 00:04:57 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:05 . Memory (MB): peak = 4728.211 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:25 ; elapsed = 00:00:08 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:27 ; elapsed = 00:00:14 . Memory (MB): peak = 4728.211 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:40 ; elapsed = 00:00:19 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file dpss_zcu102_rx_wrapper_drc_routed.rpt -pb dpss_zcu102_rx_wrapper_drc_routed.pb -rpx dpss_zcu102_rx_wrapper_drc_routed.rpx
 Command: report_drc -file dpss_zcu102_rx_wrapper_drc_routed.rpt -pb dpss_zcu102_rx_wrapper_drc_routed.pb -rpx dpss_zcu102_rx_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_drc_routed.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 4728.211 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 5141.781 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_methodology -file dpss_zcu102_rx_wrapper_methodology_drc_routed.rpt -pb dpss_zcu102_rx_wrapper_methodology_drc_routed.pb -rpx dpss_zcu102_rx_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file dpss_zcu102_rx_wrapper_methodology_drc_routed.rpt -pb dpss_zcu102_rx_wrapper_methodology_drc_routed.pb -rpx dpss_zcu102_rx_wrapper_methodology_drc_routed.rpx
-WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
+WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
 INFO: [DRC 23-133] Running Methodology with 2 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.runs/impl_1/dpss_zcu102_rx_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:53 ; elapsed = 00:00:30 . Memory (MB): peak = 4832.957 ; gain = 104.746
+report_methodology: Time (s): cpu = 00:01:17 ; elapsed = 00:00:43 . Memory (MB): peak = 5420.125 ; gain = 278.344
 INFO: [runtcl-4] Executing : report_power -file dpss_zcu102_rx_wrapper_power_routed.rpt -pb dpss_zcu102_rx_wrapper_power_summary_routed.pb -rpx dpss_zcu102_rx_wrapper_power_routed.rpx
 Command: report_power -file dpss_zcu102_rx_wrapper_power_routed.rpt -pb dpss_zcu102_rx_wrapper_power_summary_routed.pb -rpx dpss_zcu102_rx_wrapper_power_routed.rpx
-WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
+WARNING: [Constraints 18-633] Creating clock dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_wrapper_inst/inst/gen_gtwizard_gthe4_top.dpss_zcu102_rx_vid_phy_controller_0_0_gtwrapper_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[26].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/gthe4_channel_gen.gen_gthe4_channel_inst[0].GTHE4_CHANNEL_PRIM_INST/RXOUTCLK with 4 sources. [C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_vid_phy_controller_0_0/vid_phy_controller_xdc.xdc:49]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-252] The BUFG_GT instance 'dpss_zcu102_rx_i/dp_rx_hier_0/vid_phy_controller_0/inst/gt_usrclk_source_inst/bufg_gt_rx_usrclk_inst' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
 Running Vector-less Activity Propagation...
@@ -1596,18 +1702,19 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
-201 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+211 Infos, 131 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 4832.957 ; gain = 0.000
+report_power: Time (s): cpu = 00:01:02 ; elapsed = 00:00:37 . Memory (MB): peak = 5447.941 ; gain = 27.816
 INFO: [runtcl-4] Executing : report_route_status -file dpss_zcu102_rx_wrapper_route_status.rpt -pb dpss_zcu102_rx_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file dpss_zcu102_rx_wrapper_timing_summary_routed.rpt -pb dpss_zcu102_rx_wrapper_timing_summary_routed.pb -rpx dpss_zcu102_rx_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_timing_summary: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 5447.941 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_incremental_reuse -file dpss_zcu102_rx_wrapper_incremental_reuse_routed.rpt
 INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
 INFO: [runtcl-4] Executing : report_clock_utilization -file dpss_zcu102_rx_wrapper_clock_utilization_routed.rpt
-report_clock_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4832.957 ; gain = 0.000
+report_clock_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 5447.941 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file dpss_zcu102_rx_wrapper_bus_skew_routed.rpt -pb dpss_zcu102_rx_wrapper_bus_skew_routed.pb -rpx dpss_zcu102_rx_wrapper_bus_skew_routed.rpx
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -1644,9 +1751,12 @@ Resolution: If a new IP Core license was added, in order for the new license to 
 Running DRC as a precondition to command write_bitstream
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-WARNING: [DRC RTSTAT-10] No routable loads: 269 net(s) have no routable loads. The problem bus(es) and/or net(s) are dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m05_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dpss_zcu102_rx_i/ps8_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i... and (the first 15 of 195 listed).
-INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+WARNING: [DRC MIG-69] Invalid Constraint: [dpss_zcu102_rx_i/ddr4_0] The Memory IP reset port  has an incompatible IO Standard LVCMOS18 selected. If a level shifter or similar is used to ensure compatibility, this DRC can be demoted. For more details please refer AR66800.
+WARNING: [DRC RTSTAT-10] No routable loads: 418 net(s) have no routable loads. The problem bus(es) and/or net(s) are dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/LMB_CE_riu, dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/LMB_UE_riu, dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[12], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[13], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[14], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[15], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_upp/SYNC[0].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_low/SYNC[0].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_upp/SYNC[0].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_low/SYNC[0].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_low/SYNC[1].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_upp/SYNC[1].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_upp/SYNC[1].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_low/SYNC[1].sync_reg[1], dpss_zcu102_rx_i/ddr4_0/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_low/SYNC[2].sync_reg[1]... and (the first 15 of 324 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Warnings
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Generating merged BMM file for the design top 'dpss_zcu102_rx_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_ddr4_0_0/sw/calibration_0/Debug/calibration_ddr.elf 
 INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
 Loading data files...
 Loading site data...
@@ -1657,7 +1767,7 @@ Creating bitstream...
 Writing bitstream ./dpss_zcu102_rx_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Common 17-83] Releasing license: Implementation
-234 Infos, 48 Warnings, 1 Critical Warnings and 0 Errors encountered.
+245 Infos, 134 Warnings, 1 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:01:07 ; elapsed = 00:00:55 . Memory (MB): peak = 5104.004 ; gain = 271.047
-INFO: [Common 17-206] Exiting Vivado at Wed Apr  7 19:13:10 2021...
+write_bitstream: Time (s): cpu = 00:01:23 ; elapsed = 00:01:10 . Memory (MB): peak = 5681.008 ; gain = 233.066
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 18 15:20:08 2021...

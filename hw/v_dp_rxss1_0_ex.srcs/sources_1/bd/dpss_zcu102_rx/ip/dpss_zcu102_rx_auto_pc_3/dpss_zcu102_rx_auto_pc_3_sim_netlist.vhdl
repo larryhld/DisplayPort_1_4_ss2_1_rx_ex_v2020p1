@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
 -- Date        : Wed Apr  7 18:51:04 2021
 -- Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_3/dpss_zcu102_rx_auto_pc_3_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top dpss_zcu102_rx_auto_pc_3 -prefix
+--               dpss_zcu102_rx_auto_pc_3_ dpss_zcu102_rx_auto_pc_3_sim_netlist.vhdl
 -- Design      : dpss_zcu102_rx_auto_pc_3
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -51,8 +51,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_incr_cmd is
     \axlen_cnt_reg[6]_0\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
     \axaddr_incr_reg[11]_1\ : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_incr_cmd : entity is "axi_protocol_converter_v2_1_21_b2s_incr_cmd";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_incr_cmd;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_incr_cmd is
@@ -1283,8 +1281,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_rd_cmd_fsm is
     m_valid_i_reg_1 : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_rd_cmd_fsm : entity is "axi_protocol_converter_v2_1_21_b2s_rd_cmd_fsm";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_rd_cmd_fsm;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_rd_cmd_fsm is
@@ -1725,8 +1721,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_simple_fifo i
     \in\ : in STD_LOGIC_VECTOR ( 8 downto 0 );
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_simple_fifo : entity is "axi_protocol_converter_v2_1_21_b2s_simple_fifo";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_simple_fifo;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_simple_fifo is
@@ -3284,8 +3278,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wr_cmd_fsm is
     s_axburst_eq1 : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wr_cmd_fsm : entity is "axi_protocol_converter_v2_1_21_b2s_wr_cmd_fsm";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wr_cmd_fsm;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wr_cmd_fsm is
@@ -3637,8 +3629,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wrap_cmd is
     \wrap_cnt_r_reg[3]_0\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
     \wrap_boundary_axaddr_r_reg[6]_0\ : in STD_LOGIC_VECTOR ( 6 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wrap_cmd : entity is "axi_protocol_converter_v2_1_21_b2s_wrap_cmd";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wrap_cmd;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_wrap_cmd is
@@ -5605,8 +5595,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axic_register_slice i
     aresetn : in STD_LOGIC;
     \m_payload_i_reg[0]_1\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axic_register_slice : entity is "axi_register_slice_v2_1_21_axic_register_slice";
 end dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axic_register_slice;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axic_register_slice is
@@ -9903,8 +9891,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_b_channel is
     m_axi_bvalid : in STD_LOGIC;
     \in\ : in STD_LOGIC_VECTOR ( 8 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_b_channel : entity is "axi_protocol_converter_v2_1_21_b2s_b_channel";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_b_channel;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_b_channel is
@@ -10249,8 +10235,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_cmd_translato
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 );
     \axaddr_incr_reg[11]_0\ : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_cmd_translator : entity is "axi_protocol_converter_v2_1_21_b2s_cmd_translator";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_cmd_translator;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_cmd_translator is
@@ -10629,8 +10613,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_r_channel is
     \in\ : in STD_LOGIC_VECTOR ( 33 downto 0 );
     areset_d1 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_r_channel : entity is "axi_protocol_converter_v2_1_21_b2s_r_channel";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_r_channel;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_r_channel is
@@ -10809,8 +10791,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axi_register_slice is
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     \m_payload_i_reg[0]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axi_register_slice : entity is "axi_register_slice_v2_1_21_axi_register_slice";
 end dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axi_register_slice;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_register_slice_v2_1_21_axi_register_slice is
@@ -11015,8 +10995,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_ar_channel is
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 );
     \axaddr_incr_reg[11]_0\ : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_ar_channel : entity is "axi_protocol_converter_v2_1_21_b2s_ar_channel";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_ar_channel;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_ar_channel is
@@ -11262,8 +11240,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_aw_channel is
     \wrap_cnt_r_reg[1]\ : in STD_LOGIC;
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_aw_channel : entity is "axi_protocol_converter_v2_1_21_b2s_aw_channel";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_aw_channel;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s_aw_channel is
@@ -11536,8 +11512,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s is
     s_axi_arvalid : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s : entity is "axi_protocol_converter_v2_1_21_b2s";
 end dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s;
 
 architecture STRUCTURE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_b2s is
@@ -12164,8 +12138,6 @@ entity dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_axi_protocol_conv
   attribute C_TRANSLATION_MODE of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_axi_protocol_converter : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_21_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of dpss_zcu102_rx_auto_pc_3_axi_protocol_converter_v2_1_21_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

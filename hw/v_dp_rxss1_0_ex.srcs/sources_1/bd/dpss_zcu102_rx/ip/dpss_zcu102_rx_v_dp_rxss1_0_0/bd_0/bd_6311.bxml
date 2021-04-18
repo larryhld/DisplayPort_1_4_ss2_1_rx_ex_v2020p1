@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="bd_6311" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1617838487"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1617838487"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1617838487"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1617838487"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1618775420"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1618775420"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1618775420"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1618775420"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\ip_0\bd_6311_dp_0.xci" Type="IP">
         <Instance HierarchyPath="dp"/>
@@ -73,6 +73,11 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="OUT_OF_CONTEXT"/>
       </File>
+      <File Name="sim\bd_6311.protoinst">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
       <File Name="hw_handoff\dpss_zcu102_rx_v_dp_rxss1_0_0.hwh" Type="HwHandoff">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
@@ -87,11 +92,6 @@
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="HW_HANDOFF"/>
-      </File>
-      <File Name="sim\bd_6311.protoinst">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SIMULATION"/>
       </File>
     </FileCollection>
   </CompositeFile>

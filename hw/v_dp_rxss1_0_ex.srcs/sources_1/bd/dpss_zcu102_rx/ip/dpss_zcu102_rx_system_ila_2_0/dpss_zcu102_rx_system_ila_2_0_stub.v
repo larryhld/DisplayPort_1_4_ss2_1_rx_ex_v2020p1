@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Wed Apr  7 18:52:39 2021
+// Date        : Sun Apr 18 14:29:45 2021
 // Host        : DESKTOP-LB2DFM9 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/hw/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_system_ila_2_0/dpss_zcu102_rx_system_ila_2_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top dpss_zcu102_rx_system_ila_2_0 -prefix
+//               dpss_zcu102_rx_system_ila_2_0_ dpss_zcu102_rx_system_ila_2_0_stub.v
 // Design      : dpss_zcu102_rx_system_ila_2_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu9eg-ffvb1156-2-e
