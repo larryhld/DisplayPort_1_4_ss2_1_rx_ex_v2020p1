@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="dpss_zcu102_rx_auto_pc_4_synth_1" LaunchPart="xczu9eg-ffvb1156-2-e" LaunchTime="1617838993">
   <File Type="PA-TCL" Name="dpss_zcu102_rx_auto_pc_4.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="dpss_zcu102_rx_auto_pc_4_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="dpss_zcu102_rx_auto_pc_4_reports.tcl"/>
   <File Type="RDS-RDS" Name="dpss_zcu102_rx_auto_pc_4.vds"/>
-  <File Type="RDS-UTIL" Name="dpss_zcu102_rx_auto_pc_4_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="dpss_zcu102_rx_auto_pc_4_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="dpss_zcu102_rx_auto_pc_4.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="dpss_zcu102_rx_auto_pc_4_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="dpss_zcu102_rx_auto_pc_4_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dpss_zcu102_rx_auto_pc_4">
     <File Path="$PSRCDIR/sources_1/bd/dpss_zcu102_rx/ip/dpss_zcu102_rx_auto_pc_4/dpss_zcu102_rx_auto_pc_4.xci">
       <FileInfo>
@@ -46,9 +41,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
