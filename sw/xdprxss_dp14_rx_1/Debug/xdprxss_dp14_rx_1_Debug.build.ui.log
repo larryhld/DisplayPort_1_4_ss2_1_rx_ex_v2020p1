@@ -1,4 +1,4 @@
-2021-04-07T19:30:45.628417600255-19:30:45 **** Build of configuration Debug for project xdprxss_dp14_rx_1 ****
+2021-04-19T14:42:40.028803100255-14:42:40 **** Build of configuration Debug for project xdprxss_dp14_rx_1 ****
 000-make all 
 000-'Building file: ../src/idt_8t49n24x.c'
 000-'Invoking: ARM v8 gcc compiler'
@@ -42,5 +42,5 @@
 000-'Finished building: xdprxss_dp14_rx_1.elf.size'
 000-' '
 00255-
-19:30:48 Build Finished (took 2s.975ms)
+14:42:42 Build Finished (took 2s.213ms)
 

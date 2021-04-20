@@ -1,5 +1,5 @@
-2021-04-07T19:26:19.777631900255-19:26:19 **** Build of project zcu102_rxo ****
-000-buildplatform.bat 49672 zcu102_rxo  
+2021-04-19T14:38:35.894042900255-14:38:35 **** Build of project zcu102_rxo ****
+000-buildplatform.bat 64677 zcu102_rxo  
 000-XSDB Server Channel: tcfchan#1
 000-Building the zynqmp_fsbl application.
 000-make -C zynqmp_fsbl_bsp
@@ -1090,8 +1090,8 @@
 000-xfsbl_authentication.o  xfsbl_translation_table.o  xfsbl_exit.o -MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -f
 000-fat-lto-objects    -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--s
 000-tart-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group                       
-000-                                                                                               -n  -Wl,--gc-sections -Lzynqmp_f
-000-sbl_bsp/psu_cortexa53_0/lib -Tlscript.ld
+000-                                                                                                -n  -Wl,--gc-sections -Lzynqmp_
+000-fsbl_bsp/psu_cortexa53_0/lib -Tlscript.ld
 000-
 000-Building the zynqmp_pmufw application.
 000-make -C zynqmp_pmufw_bsp
@@ -2230,8 +2230,8 @@
 000--mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects    -Wl,--start-grou
 000-p,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilfpga,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc
 000-,-lc,--end-group -Wl,--start-group,-lxilskey,-lxil,-lgcc,-lc,--end-group                                                       
-000-                                                                  -nostartfiles -Wl,--no-relax -Wl,--gc-sections -Lzynqmp_pmufw
-000-_bsp/psu_pmu_0/lib -Tlscript.ld
+000-                                                                   -nostartfiles -Wl,--no-relax -Wl,--gc-sections -Lzynqmp_pmuf
+000-w_bsp/psu_pmu_0/lib -Tlscript.ld
 000-
 000-Building the BSP Library for domain  - standalone_domain on processor psu_cortexa53_0
 000-"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_3/src"
@@ -2644,5 +2644,5 @@
 000-'Finished building libraries'
 000-
 00255-
-19:30:45 Build Finished (took 4m:25s.480ms)
+14:42:39 Build Finished (took 4m:3s.613ms)
 

@@ -956,6 +956,21 @@
 #define  XPAR_XIPIPS_TARGET_PSU_PMU_0_CH3_MASK  XPAR_PSU_IPI_6_BIT_MASK
 #define  XPAR_XIPIPS_TARGET_PSU_PMU_0_CH3_INDEX  6U
 
+
+/* Definitions for peripheral DDR4_0 */
+#define XPAR_DDR4_0_BASEADDR 0x400000000
+#define XPAR_DDR4_0_HIGHADDR 0x41FFFFFFF
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral DDR4_0 */
+#define XPAR_MIG_0_BASEADDR 0x400000000
+#define XPAR_MIG_0_HIGHADDR 0x41FFFFFFF
+
+
+/******************************************************************/
+
 /* Definitions for driver PCIEPSU */
 #define XPAR_XPCIEPSU_NUM_INSTANCES 6
 

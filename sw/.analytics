@@ -1,7 +1,10 @@
-timestamp=[2021-04-07 19:21:34], mode=WORKBENCH_START, duration=0:00:04.471, duration_ms=4471, data={}
-timestamp=[2021-04-07 19:21:35], mode=WORKBENCH_UI_INIT, duration=0:00:00.350, duration_ms=350, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
-timestamp=[2021-04-07 19:21:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.426, duration_ms=2426, data={}
-timestamp=[2021-04-07 19:24:58], mode=PLATFORM_CREATION, duration=0:00:24.978, duration_ms=24978, data={platform_source=dsa, os=standalone, processor=psu_cortexa53, platform=null}
-timestamp=[2021-04-07 19:25:53], mode=APP_CREATION, duration=0:00:16.571, duration_ms=16571, data={name=xdprxss_dp14_rx_1, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=zcu102_rxo, application_type=application}
-timestamp=[2021-04-07 19:30:45], mode=PLATFORM_GENERATION, duration=0:04:25.798, duration_ms=265798, data={name=zcu102_rxo}
-timestamp=[2021-04-07 19:30:48], mode=BUILD, duration=0:00:02.992, duration_ms=2992, data={name=xdprxss_dp14_rx_1, configuration=Debug, clean_build=false}
+timestamp=[2021-04-19 14:32:42], mode=WORKBENCH_START, duration=0:00:04.615, duration_ms=4615, data={}
+timestamp=[2021-04-19 14:32:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.477, duration_ms=477, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-04-19 14:32:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.172, duration_ms=3172, data={}
+timestamp=[2021-04-19 14:34:26], mode=PLATFORM_CREATION, duration=0:00:28.447, duration_ms=28447, data={platform_source=dsa, os=standalone, processor=psu_cortexa53, platform=null}
+timestamp=[2021-04-19 14:36:15], mode=APP_CREATION, duration=0:00:18.708, duration_ms=18708, data={name=xdprxss_dp14_rx_1, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=zcu102_rxo, application_type=application}
+timestamp=[2021-04-19 14:42:39], mode=PLATFORM_GENERATION, duration=0:04:04.039, duration_ms=244039, data={name=zcu102_rxo}
+timestamp=[2021-04-19 14:42:42], mode=BUILD, duration=0:00:02.236, duration_ms=2236, data={name=xdprxss_dp14_rx_1, configuration=Debug, clean_build=false}
+timestamp=[2021-04-20 10:51:41], mode=WORKBENCH_START, duration=0:00:07.781, duration_ms=7781, data={}
+timestamp=[2021-04-20 10:51:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.658, duration_ms=658, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,xdprxss_dp14_rx_1,xdprxss_dp14_rx_1_system,zcu102_rxo}
+timestamp=[2021-04-20 10:51:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.043, duration_ms=43, data={}

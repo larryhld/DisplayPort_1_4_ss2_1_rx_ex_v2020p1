@@ -1,5 +1,5 @@
-19:26:19 **** Build of project zcu102_rxo ****
-buildplatform.bat 49672 zcu102_rxo  
+14:38:35 **** Build of project zcu102_rxo ****
+buildplatform.bat 64677 zcu102_rxo  
 XSDB Server Channel: tcfchan#1
 Building the zynqmp_fsbl application.
 make -C zynqmp_fsbl_bsp
@@ -1090,8 +1090,8 @@ sbl_board.o  xfsbl_misc_drivers.o  xfsbl_bs.o  xfsbl_rsa_sha.o  xfsbl_plpartitio
 xfsbl_authentication.o  xfsbl_translation_table.o  xfsbl_exit.o -MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -f
 fat-lto-objects    -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--s
 tart-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group                       
-                                                                                               -n  -Wl,--gc-sections -Lzynqmp_f
-sbl_bsp/psu_cortexa53_0/lib -Tlscript.ld
+                                                                                                -n  -Wl,--gc-sections -Lzynqmp_
+fsbl_bsp/psu_cortexa53_0/lib -Tlscript.ld
 
 Building the zynqmp_pmufw application.
 make -C zynqmp_pmufw_bsp
@@ -2230,8 +2230,8 @@ requirement.o  xpfw_module.o  xpfw_restart.o  xpfw_error_manager.o  xpfw_mod_leg
 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects    -Wl,--start-grou
 p,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilfpga,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc
 ,-lc,--end-group -Wl,--start-group,-lxilskey,-lxil,-lgcc,-lc,--end-group                                                       
-                                                                  -nostartfiles -Wl,--no-relax -Wl,--gc-sections -Lzynqmp_pmufw
-_bsp/psu_pmu_0/lib -Tlscript.ld
+                                                                   -nostartfiles -Wl,--no-relax -Wl,--gc-sections -Lzynqmp_pmuf
+w_bsp/psu_pmu_0/lib -Tlscript.ld
 
 Building the BSP Library for domain  - standalone_domain on processor psu_cortexa53_0
 "Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_3/src"
@@ -2644,5 +2644,5 @@ s" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAG
 'Finished building libraries'
 
 
-19:30:45 Build Finished (took 4m:25s.480ms)
+14:42:39 Build Finished (took 4m:3s.613ms)
 

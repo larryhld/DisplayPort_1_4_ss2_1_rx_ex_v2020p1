@@ -13,9 +13,9 @@ set mode [expr [mrd -value 0xFF5E0200] & 0xf]
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/boot/fsbl.elf
-set bp_33_57_fsbl_bp [bpadd -addr &XFsbl_Exit]
+set bp_53_22_fsbl_bp [bpadd -addr &XFsbl_Exit]
 con -block -timeout 60
-bpremove $bp_33_57_fsbl_bp
+bpremove $bp_53_22_fsbl_bp
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/xdprxss_dp14_rx_1/Debug/xdprxss_dp14_rx_1.elf
