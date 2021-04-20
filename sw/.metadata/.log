@@ -28463,3 +28463,9 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
 	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-20 12:08:42.017
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-493
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-20 12:08:42.022
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-493
