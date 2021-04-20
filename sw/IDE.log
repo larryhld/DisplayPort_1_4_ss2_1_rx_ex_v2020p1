@@ -1,44 +1,44 @@
-14:32:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Projects\Xilinx\DisplayPort\DisplayPort_1_4_ss2_1_rx_ex_v2020p1\sw\temp_xsdb_launch_script.tcl
-14:32:43 INFO  : Registering command handlers for Vitis TCF services
-14:32:45 INFO  : XSCT server has started successfully.
-14:32:45 INFO  : Successfully done setting XSCT server connection channel  
-14:32:45 INFO  : plnx-install-location is set to ''
-14:32:45 INFO  : Successfully done setting workspace for the tool. 
-14:32:45 INFO  : Successfully done query RDI_DATADIR 
-14:32:46 INFO  : Platform repository initialization has completed.
-14:34:25 INFO  : Result from executing command 'getProjects': zcu102_rxo
-14:34:25 INFO  : Result from executing command 'getPlatforms': 
-14:34:49 INFO  : Successfully done sdx_reload_mss "C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss"
-14:35:08 INFO  : Successfully done sdx_reload_mss "C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/psu_cortexa53_0/standalone_domain/bsp/system.mss"
-14:36:15 INFO  : Example project xdprxss_dp14_rx_1 has been created successfully.
-14:42:39 INFO  : Result from executing command 'getProjects': zcu102_rxo
-14:42:39 INFO  : Result from executing command 'getPlatforms': zcu102_rxo|C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/zcu102_rxo.xpfm
-14:42:39 INFO  : Checking for BSP changes to sync application flags for project 'xdprxss_dp14_rx_1'...
-14:52:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-14:53:00 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308ABAAAA' is selected.
-14:53:00 INFO  : 'jtag frequency' command is executed.
-14:53:00 INFO  : Sourcing of 'C:/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
-14:53:00 INFO  : Context for 'APU' is selected.
-14:53:02 INFO  : System reset is completed.
-14:53:05 INFO  : 'after 3000' command is executed.
-14:53:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308ABAAAA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308ABAAAA-24738093-0"}' command is executed.
-14:53:20 INFO  : FPGA configured successfully with bitstream "C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/xdprxss_dp14_rx_1/_ide/bitstream/dpss_zcu102_rx_wrapper.bit"
-14:53:20 INFO  : Context for 'APU' is selected.
-14:53:21 INFO  : Hardware design and registers information is loaded from 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/hw/dpss_zcu102_rx_wrapper.xsa'.
-14:53:21 INFO  : 'configparams force-mem-access 1' command is executed.
-14:53:21 INFO  : Context for 'APU' is selected.
-14:53:21 INFO  : Boot mode is read from the target.
-14:53:21 INFO  : Context for processor 'psu_cortexa53_0' is selected.
-14:53:21 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
-14:53:22 INFO  : The application 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
-14:53:22 INFO  : 'set bp_53_22_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
-14:53:23 INFO  : 'con -block -timeout 60' command is executed.
-14:53:23 INFO  : 'bpremove $bp_53_22_fsbl_bp' command is executed.
-14:53:23 INFO  : Context for processor 'psu_cortexa53_0' is selected.
-14:53:23 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
-14:53:24 INFO  : The application 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/xdprxss_dp14_rx_1/Debug/xdprxss_dp14_rx_1.elf' is downloaded to processor 'psu_cortexa53_0'.
-14:53:24 INFO  : 'configparams force-mem-access 0' command is executed.
-14:53:24 INFO  : ----------------XSDB Script----------------
+11:33:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Projects\Xilinx\DisplayPort\DisplayPort_1_4_ss2_1_rx_ex_v2020p1\sw\temp_xsdb_launch_script.tcl
+11:33:03 INFO  : Registering command handlers for Vitis TCF services
+11:33:05 INFO  : XSCT server has started successfully.
+11:33:05 INFO  : Successfully done setting XSCT server connection channel  
+11:33:05 INFO  : plnx-install-location is set to ''
+11:33:05 INFO  : Successfully done setting workspace for the tool. 
+11:33:05 INFO  : Successfully done query RDI_DATADIR 
+11:33:05 INFO  : Platform repository initialization has completed.
+11:34:09 INFO  : Result from executing command 'getProjects': zcu102_rxo
+11:34:09 INFO  : Result from executing command 'getPlatforms': 
+11:34:23 INFO  : Successfully done sdx_reload_mss "C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/psu_cortexa53_0/standalone_domain/bsp/system.mss"
+11:34:42 INFO  : Successfully done sdx_reload_mss "C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss"
+11:35:59 INFO  : Example project xdprxss_dp14_rx_1 has been created successfully.
+11:40:24 INFO  : Result from executing command 'getProjects': zcu102_rxo
+11:40:24 INFO  : Result from executing command 'getPlatforms': zcu102_rxo|C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/zcu102_rxo.xpfm
+11:40:35 INFO  : Checking for BSP changes to sync application flags for project 'xdprxss_dp14_rx_1'...
+11:42:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:37 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308ABAAAA' is selected.
+11:42:37 INFO  : 'jtag frequency' command is executed.
+11:42:37 INFO  : Sourcing of 'C:/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+11:42:37 INFO  : Context for 'APU' is selected.
+11:42:38 INFO  : System reset is completed.
+11:42:41 INFO  : 'after 3000' command is executed.
+11:42:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308ABAAAA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308ABAAAA-24738093-0"}' command is executed.
+11:42:56 INFO  : FPGA configured successfully with bitstream "C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/xdprxss_dp14_rx_1/_ide/bitstream/dpss_zcu102_rx_wrapper.bit"
+11:42:56 INFO  : Context for 'APU' is selected.
+11:42:57 INFO  : Hardware design and registers information is loaded from 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/hw/dpss_zcu102_rx_wrapper.xsa'.
+11:42:57 INFO  : 'configparams force-mem-access 1' command is executed.
+11:42:57 INFO  : Context for 'APU' is selected.
+11:42:57 INFO  : Boot mode is read from the target.
+11:42:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:42:57 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:42:58 INFO  : The application 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:42:58 INFO  : 'set bp_42_58_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+11:42:59 INFO  : 'con -block -timeout 60' command is executed.
+11:42:59 INFO  : 'bpremove $bp_42_58_fsbl_bp' command is executed.
+11:42:59 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:42:59 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:43:00 INFO  : The application 'C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/xdprxss_dp14_rx_1/Debug/xdprxss_dp14_rx_1.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:43:00 INFO  : 'configparams force-mem-access 0' command is executed.
+11:43:00 INFO  : ----------------XSDB Script----------------
 connect -url tcp:127.0.0.1:3121
 source C:/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl
 targets -set -nocase -filter {name =~"APU*"}
@@ -54,29 +54,20 @@ set mode [expr [mrd -value 0xFF5E0200] & 0xf]
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/zcu102_rxo/export/zcu102_rxo/sw/zcu102_rxo/boot/fsbl.elf
-set bp_53_22_fsbl_bp [bpadd -addr &XFsbl_Exit]
+set bp_42_58_fsbl_bp [bpadd -addr &XFsbl_Exit]
 con -block -timeout 60
-bpremove $bp_53_22_fsbl_bp
+bpremove $bp_42_58_fsbl_bp
 targets -set -nocase -filter {name =~ "*A53*#0"}
 rst -processor
 dow C:/Projects/Xilinx/DisplayPort/DisplayPort_1_4_ss2_1_rx_ex_v2020p1/sw/xdprxss_dp14_rx_1/Debug/xdprxss_dp14_rx_1.elf
 configparams force-mem-access 0
 ----------------End of Script----------------
 
-14:53:24 INFO  : Context for processor 'psu_cortexa53_0' is selected.
-14:53:24 INFO  : 'con' command is executed.
-14:53:24 INFO  : ----------------XSDB Script (After Launch)----------------
+11:43:00 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:43:00 INFO  : 'con' command is executed.
+11:43:00 INFO  : ----------------XSDB Script (After Launch)----------------
 targets -set -nocase -filter {name =~ "*A53*#0"}
 con
 ----------------End of Script----------------
 
-14:53:24 INFO  : Launch script is exported to file 'C:\Projects\Xilinx\DisplayPort\DisplayPort_1_4_ss2_1_rx_ex_v2020p1\sw\.sdk\launch_scripts\single_application_debug\debugger_xdprxss_dp14_rx_1-default.tcl'
-15:35:28 INFO  : Disconnected from the channel tcfchan#2.
-10:51:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Projects\Xilinx\DisplayPort\DisplayPort_1_4_ss2_1_rx_ex_v2020p1\sw\temp_xsdb_launch_script.tcl
-10:51:39 INFO  : XSCT server has started successfully.
-10:51:39 INFO  : Successfully done setting XSCT server connection channel  
-10:51:39 INFO  : plnx-install-location is set to ''
-10:51:39 INFO  : Successfully done setting workspace for the tool. 
-10:51:40 INFO  : Successfully done query RDI_DATADIR 
-10:51:41 INFO  : Platform repository initialization has completed.
-10:51:42 INFO  : Registering command handlers for Vitis TCF services
+11:43:00 INFO  : Launch script is exported to file 'C:\Projects\Xilinx\DisplayPort\DisplayPort_1_4_ss2_1_rx_ex_v2020p1\sw\.sdk\launch_scripts\single_application_debug\debugger_xdprxss_dp14_rx_1-default.tcl'

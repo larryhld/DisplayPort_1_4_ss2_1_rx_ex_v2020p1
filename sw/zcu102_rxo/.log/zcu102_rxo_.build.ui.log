@@ -1,5 +1,5 @@
-2021-04-19T14:38:35.894042900255-14:38:35 **** Build of project zcu102_rxo ****
-000-buildplatform.bat 64677 zcu102_rxo  
+2021-04-20T11:36:47.817501600255-11:36:47 **** Build of project zcu102_rxo ****
+000-buildplatform.bat 51020 zcu102_rxo  
 000-XSDB Server Channel: tcfchan#1
 000-Building the zynqmp_fsbl application.
 000-make -C zynqmp_fsbl_bsp
@@ -2644,5 +2644,5 @@
 000-'Finished building libraries'
 000-
 00255-
-14:42:39 Build Finished (took 4m:3s.613ms)
+11:40:35 Build Finished (took 3m:47s.257ms)
 

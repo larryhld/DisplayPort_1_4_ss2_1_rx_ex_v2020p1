@@ -1,5 +1,5 @@
-14:38:35 **** Build of project zcu102_rxo ****
-buildplatform.bat 64677 zcu102_rxo  
+11:36:47 **** Build of project zcu102_rxo ****
+buildplatform.bat 51020 zcu102_rxo  
 XSDB Server Channel: tcfchan#1
 Building the zynqmp_fsbl application.
 make -C zynqmp_fsbl_bsp
@@ -2644,5 +2644,5 @@ s" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAG
 'Finished building libraries'
 
 
-14:42:39 Build Finished (took 4m:3s.613ms)
+11:40:35 Build Finished (took 3m:47s.257ms)
 
